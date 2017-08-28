@@ -1,0 +1,131 @@
+Script started on Friday 12 May 2017 04:06:57 PM BRT
+tadeu@Dell-Campo:~/workspace/AFC_Omnysis_Test$ /opt/Xilinx/SDK/2016.2/bin/xmd
+xfrlwrap: warning: your $TERM is 'xterm' but rlwrap couldn't find it in the terminfo database. Expect some problems.
+                                                                                xfpga_isconfigured -cable type xilinx_tcf url TCP:127.0.0.1:3121                                                                xfpga_isconfigured -cable type xilinx_tcf url TCP:127.0.0.1:3121
+                                                                                xconnect mb mdm -cable type xilinx_tcf url TCP:127.0.0.1:3121                                                             xconnect mb mdm -cable type xilinx_tcf url TCP:127.0.0.1:3121
+                                                                                set_cur_target 0                set_cur_target 0
+                                                                                set_cur_system              set_cur_system
+                                                                                xreset 0 0x80             xreset 0 0x80
+                                                                                terminal -jtag_uar                  
+                                                                                terminal -jtag_uar                  ****** Xilinx Microprocessor Debugger (XMD) Engine                                                                                ****** Xilinx Microprocessor Debugger (XMD) Engineterminal -jtag_uar                                                                                                  ****** Xilinx Microprocessor Debugger (XMD) Engine
+****** XMD v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+WARNING: XMD has been deprecated and will be removed in future.
+         XSDB replaces XMD and provides additional functionality.
+         We recommend you switch to XSDB for commandline debugging.
+         Please refer to SDK help for more details.
+                                                                                terminal -jtag_uart                   
+XMD% 
+                                                                                terminal -jtag_uart                   XMD%                                                                                 XMD% terminal -jtag_uart_serverXMD%                           XMD% terminal -jtag_uart_server
+                                                                                xdownload 0 /home                 X 1#
+JTAG chain configuration
+--------------------------------------------------
+Device   ID Code        IR Length    Part Name
+ 1       13636093           6        xc7a200t
+$
+XMD%                                                                                 XMD% xdownload 0 /home/tXMD%                    XMD%                                                                                 XMD% WARNING: Processor Version 0x23 - UnSupported Version, New Features May Not Work
+
+                                                                                xdownload 0 /home/tad                     X 0#
+JTAG chain configuration
+--------------------------------------------------
+Device   ID Code        IR Length    Part Name
+ 1       13636093           6        xc7a200t
+
+MicroBlaze Processor Configuration :
+-------------------------------------
+Version............................0x23 - UnSupported Version
+Optimization.......................Performance
+Interconnect.......................AXI-LE
+MMU Type...........................No_MMU
+No of PC Breakpoints...............1
+No of                                                                                No ofxdownload 0 /home/tadNo of                     No of                                                                                No of Read Addr/Data Watchpoints...0
+No of Write Addr/Data Watchpoints..0
+Instruction Cache Support..........on
+Instruction Cache Base Address.....0x80000000
+Instruction Cache High Address.....0xffffffff
+Data Cache Support.................on
+Data Cache Base Address............0x80000000
+Data Cache High Address............0xffffffff
+Exceptions  Support................on
+FPU  Support.......................off
+Hard Divider Support...............off
+Hard Multiplier Support............off
+Bar                                                                                Barxdownload 0 /home/tadBar                     Bar                                                                                Barrel Shifter Support.............off
+MSR clr/set Instruction Support....off
+Compare Instruction Support........off
+Data Cache Write-back Support......off
+Fault Tolerance Support............on
+Stack Protection Support...........off
+$
+XMD% 0
+XMD% XMD%                                                                                 XMD% XMD% xdownload 0 /home/tadeu/XMD% XMD%                         XMD% XMD%                                                                                 XMD% XMD% X 0#Target reset successfully
+$
+XMD%                                                                                 XMD% xdownload 0 /home/tadeu/XMD%                         XMD%                                                                                 XMD% 
+Note:: "terminal" command is Deprecated. Use "jtag_terminal" command
+                                                                                xdownload 0 /home/tadeu/wo                          MDM Uart Present in the System
+
+                                                                                xdownload 0 /home/tadeu/wor                           Connected to JTAG UART Target
+                                                                                xdownload 0 /home/tadeu/wor                           Channel Opened
+
+opening terminal server
+JTAG-based Terminal Server.
+(TCP Port no used is 4321)
+
+4321
+XMD%                                                                                 XMD% xdownload 0 /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DD<u/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR                         3/mem5000/project_1/proje<st/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/projec                         t_1.sdk/Mem/Debug/Mem.elfXMD% xdownload 0 /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR>XMD%                                                                           XMD% xdownload 0 /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/Mem/Debug/Mem.elf
+                                                                                x System Reset .... DONE
+                                                                                xsafemode 0 off               xsafemode 0 off
+                                                                                xremove 0 a           Downloading Program -- /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/Mem/Debug/Mem.elf
+	section, .vectors.reset: 0x00000000-0x00000007
+	section, .vectors.sw_exception: 0x00000008-0x0000000f
+	section, .vectors.interrupt: 0x00000010-0x00000017
+	section, .vectors.hw_exception: 0x00000020-0x00000027
+	section, .text: 0x00000050-0x00002daf
+	section, .init: 0x00002db0-0x00002deb
+	section, .fini: 0x00002dec-0x00002e0b
+	section, .ctors: 0x00002e0c-0x00002e13                                                                                	section, .ctors: 0x00002e0c-0x00002e13xremove 0 a                                                                                           	section, .ctors: 0x00002e0c-0x00002e13
+	section, .dtors: 0x00002e14-0x00002e1b
+	section, .rodata: 0x00002e1c-0x00002fe3
+	section, .sdata2: 0x00002fe4-0x00002fe7
+	section, .data: 0x00002fe8-0x0000317b
+	section, .eh_frame: 0x0000317c-0x0000317f
+	section, .jcr: 0x00003180-0x00003183
+	section, .sdata: 0x00003184-0x00003187
+	section, .bss: 0x00003188-0x00003233
+	section, .heap: 0x00003234-0x00003237
+	section, .stack: 0x00003238-0x00003637
+Download Progress.                                                                                Download Progress.xremove 0 all                                                                                             Download Progress..                                                                                Download Progress..xremove 0 all             xremove 0 all
+10.                                                                                10.xb                                                                                  10.20.                                                                                10.20.xbrea                                                                                     10.20.30.                                                                                10.20.30.xbreakpo                                                                                        10.20.30.40.                                                                                10.20.30.40.xbreakpoin                                                                                          10.20.30.40.50.                                                                                10.20.30.40.50.xbreakpoint 0                                                                                             10.20.30.40.50.60.                                                                                10.20.30.40.50.60.xbreakpoint 0 ex                                                                                                10.20.30.40.50.60.70.                                                                                10.20.30.40.50.60.70.xbreakpoint 0 exit                                                                                                    10.20.30.40.50.60.70.80.                                                                                10.20.30.40.50.60.70.80.xbreakpoint 0 exit sw                                                                                                     10.20.30.40.50.60.70.80.90.                                                                                10.20.30.40.50.60.70.80.90.xbreakpoint 0 exit sw                     xbreakpoint 0 exit sw
+.Done
+Setting PC with Program Start Address 0x00000000
+X 0#$
+XMD% X 0#
+Safe Mode is disabled.
+$
+XMD%                                                                                 XMD% x                                                                                 XMD% X 0#$
+XMD%                                                                                 XMD% xel                                                                                   XMD% X 0#Setting breakpoint at 0x00002a04$
+XMD%                                                                                 XMD% xelf_start_address /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATI<me/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZ                         ADO_DDR3/mem5000/project_<ysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1                         /project_1.sdk/Mem/Debug/<DO_DDR3/mem5000/project_1/project_1.sdk/Mem/Debug/M                         em.elfXMD% xelf_start_address /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZ>XMD%                                                                           XMD% xelf_start_address /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/Mem/Debug/Mem.elf
+X 0x00000000#$
+XMD%                                                                                 XMD% xrun 0      xrun 0
+                                                                                Processor started. Type "stop" to stop processor
+
+RUNNING> X 0#$
+XMD%                                                                                 XMD%                                                                                 XMD% --Starting Memory Test Application--
+NOTE: This                                                                                NOTE: This                                                                                NOTE: This application runs with D-Cache disabled.As a result, cacheline requests will not be generated
+T                                                                                T                                                                                Testing memory region: mig_7series_0
+    Memory                                                                                     Memory                                                                                     Memory Controller: mig_7series
+                                                                                                                                                                                       Base Address: 0x80000000
+                                                                                                                                                                                         Size: 0x80000000 bytes 
+                                                                                                                                                                                              32-bit test: PASSED!
+                                                                                                                                                                                              16-bit test: PASSED!
+                                                                                                                                                                                               8-bit test: PASSED!
+--Memory T                                                                                --Memory T                                                                                --Memory TSoftware Breakpoint 0 Hit, Processor Stopped at 0x00002a04
+est Application 
+XMD%                                                                                 XMD%                                                                                 XMD% Complete--
+                                                                                                                                                                exit    exit
+tadeu@Dell-Campo:~/workspace/AFC_Omnysis_Test$ exit
+exit
+
+Script done on Friday 12 May 2017 04:07:31 PM BRT

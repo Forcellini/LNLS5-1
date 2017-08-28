@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# updatemem v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# 
+# Start of session at: Fri May 12 14:54:10 2017
+# Process ID: 19802
+# Current directory: /home/tadeu/workspace/AFC_Loopback
+# Command line: updatemem -mode batch -source /opt/Xilinx/SDK/2016.2/scripts/updatemem/main.tcl -notrace -tclargs -meminfo /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.mmi -data /opt/Xilinx/SDK/2016.2/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -out /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit -force
+# Log file: /home/tadeu/workspace/AFC_Loopback/updatemem.log
+# Journal file: /home/tadeu/workspace/AFC_Loopback/updatemem.jou
+#-----------------------------------------------------------
+source /opt/Xilinx/SDK/2016.2/scripts/updatemem/main.tcl -notrace
+Loading bitfile /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/design_1_wrapper_hw_platform_0/download.bit...
+update_mem: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 866.586 ; gain = 436.797 ; free physical = 1014 ; free virtual = 19970
+INFO: [Common 17-206] Exiting updatemem at Fri May 12 14:54:26 2017...

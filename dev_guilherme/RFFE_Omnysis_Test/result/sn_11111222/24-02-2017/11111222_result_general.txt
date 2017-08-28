@@ -1,0 +1,460 @@
+TESTE DA PLACA: RFFE
+
+Operador: Fernando
+Numero de Serie: 11111222
+RFFE Software Version: V
+RFFE - IP: 10.0.18.199
+RFFE - Communication: OK
+Start Time: 24-02-2017 11:44:34
+End Time: 24-02-2017 11:44:34
+Duracao do Teste: 6.5821 min
+
+Set-up Info:
+Network Analyzer Model: E5062A
+Network Analyzer - IP: 10.0.18.66
+Network Analyzer - Communication: OK
+Waveform Generator Model: 33500B
+Waveform Generator - IP: 10.0.18.69
+Waveform Generator - Communication: OK
+RF Switch Model: RC-2SP4T-A18
+RF Switch1 - IP: 10.0.18.68
+RF Switch1 - Communication: OK
+RF Switch2 - IP: 10.0.18.50
+RF Switch2 - Communication: OK
+DC Power Supply Model: 6626A
+
+RESULTS:
+
+############################################
+S-Parameters Test
+Test configuration:
+Network Analyzer - Center Frequency [Hz]: 475000000.0
+Network Analyzer - Span Frequency [Hz]: 90000000.0
+Network Analyzer - Power Level [dB]: -25.0
+Network Analyzer - Number of pts acquired per parameter: 1601
+Waveform Generator - DC Offset [V]: 3.0
+RFFE Attenuation [dB]: 30.0
+RF Switch 1 Position: 3-3
+Type of data acquired: S11, S12, S21, S22
+Result Info:
+
+S-Parameters Test FINAL RESULT: DATA ACQUIRED
+############################################
+
+############################################
+Attenuator Sweep Test
+Test configuration:
+Network Analyzer - Center Frequency [Hz]: 475000000.0
+Network Analyzer - Span Frequency [Hz]: 90000000.0
+Network Analyzer - Power Level [dB]: -25.0
+Waveform Generator - DC Offset [V]: 3.0
+RF Switch 1 Position: 3-3
+Type of data acquired: S21
+
+Tolerance:
+Upper Boundary Tolerance (abs)[dB]: 5.2
+Lower Boundary Tolerance (abs)[dB]: 4.8
+
+Result Info:
+
+Attenuators sweep test - RFFE Channel: 1 - 1
+RFFE Attenuation [dB]    Result Values [dB]       
+2.5                      4.96                     
+7.5                      4.94                     
+12.5                     4.98                     
+17.5                     5.01                     
+22.5                     4.86                     
+Attenuator Sweep Test Result Channel 1-1: OK
+
+Attenuators sweep test - RFFE Channel: 2 - 2
+RFFE Attenuation [dB]    Result Values [dB]       
+2.5                      5.01                     
+7.5                      4.96                     
+12.5                     5.04                     
+17.5                     5.02                     
+22.5                     4.93                     
+Attenuator Sweep Test Result Channel 2-2: OK
+
+Attenuators sweep test - RFFE Channel: 3 - 3
+RFFE Attenuation [dB]    Result Values [dB]       
+2.5                      4.97                     
+7.5                      4.96                     
+12.5                     5.04                     
+17.5                     4.99                     
+22.5                     4.93                     
+Attenuator Sweep Test Result Channel 3-3: OK
+
+Attenuators sweep test - RFFE Channel: 4 - 4
+RFFE Attenuation [dB]    Result Values [dB]       
+2.5                      4.98                     
+7.5                      4.94                     
+12.5                     5.1                      
+17.5                     5.03                     
+22.5                     4.89                     
+Attenuator Sweep Test Result Channel 4-4: OK
+
+Attenuator Sweep Test FINAL RESULT: OK
+############################################
+
+############################################
+RF Switches Test
+Test configuration:
+Network Analyzer - Center Frequency [Hz]: 475000000.0
+Network Analyzer - Span Frequency [Hz]: 90000000.0
+Network Analyzer - Power Level [dB]: -25.0
+RFFE Attenuation [dB]: 30.0
+RF Switch 1 Position: 3-3
+Type of data acquired: S21
+
+Tolerance:
+Lower Boundary Tolerance (abs)[dB]: 36.0
+
+Result Info:
+
+Channel 1 - 1
+Waveform Generator - DC Offset [V]: 3.0
+Measurement [dB]:6.03
+Waveform Generator - DC Offset [V]: 0.0
+Measurement [dB]:-33.05
+Result Value [dB]:39.08
+RF Switches Test Channel 1-1: OK
+
+Channel 2 - 2
+Waveform Generator - DC Offset [V]: 3.0
+Measurement [dB]:5.67
+Waveform Generator - DC Offset [V]: 0.0
+Measurement [dB]:-33.04
+Result Value [dB]:38.71
+RF Switches Test Channel 2-2: OK
+
+Channel 3 - 3
+Waveform Generator - DC Offset [V]: 3.0
+Measurement [dB]:5.84
+Waveform Generator - DC Offset [V]: 0.0
+Measurement [dB]:-33.35
+Result Value [dB]:39.19
+RF Switches Test Channel 3-3: OK
+
+Channel 4 - 4
+Waveform Generator - DC Offset [V]: 3.0
+Measurement [dB]:5.85
+Waveform Generator - DC Offset [V]: 0.0
+Measurement [dB]:-33.33
+Result Value [dB]:39.18
+RF Switches Test Channel 4-4: OK
+
+RF Switches Test FINAL RESULT: OK
+############################################
+
+############################################
+Frequency Response Test
+Test configuration:
+Network Analyzer - Center Frequency [Hz]: 475000000.0
+Network Analyzer - Span Frequency [Hz]: 90000000.0
+Network Analyzer - Start Bandwidth [Hz]: 465000000.0
+Network Analyzer - Stop Bandwidth [Hz]: 483000000.0
+Network Analyzer - Step Bandwidth [Hz]: 56250.0
+Network Analyzer - Power Level [dB]: -25.0
+Waveform Generator - DC Offset [V]: 3.0
+RFFE Attenuation [dB]: 30.0
+RF Switch 1 Position: 3-3
+Type of data acquired: S21
+
+Tolerance:
+Lower Boundary Tolerance [Reference Value] [dB]: 3.5
+Lower Boundary Tolerance [Varredura] [dB]: -1.0
+Upper Boundary Tolerance [Varredura] [dB]: 1.0
+
+Result Info:
+
+Channel 1-1
+Result Delta Varredura (abs) [dB]: 0.81
+Result Maximum (abs) [dB]: 6.2
+Result Minimum (abs) [dB]: 5.39
+Result Maximum - Frequency [Hz]: 468812500.0
+Result Minimum - Frequency [Hz]: 478262500.0
+Frequency Response Channel 1-1: OK
+
+Channel 2 - 2
+Result Delta Varredura (abs) [dB]: 0.76
+Result Maximum (abs) [dB]: 5.85
+Result Minimum (abs) [dB]: 5.09
+Result Maximum - Frequency [Hz]: 468700000.0
+Result Minimum - Frequency [Hz]: 478487500.0
+Frequency Response Channel 2-2: OK
+
+Channel 3-3
+Result Delta Varredura (abs) [dB]: 0.81
+Result Maximum (abs) [dB]: 6.2
+Result Minimum (abs) [dB]: 5.39
+Result Maximum - Frequency [Hz]: 468812500.0
+Result Minimum - Frequency [Hz]: 478262500.0
+Frequency Response Channel 3-3: OK
+
+Channel 4 - 4
+Result Delta Varredura (abs) [dB]: 0.76
+Result Maximum (abs) [dB]: 5.85
+Result Minimum (abs) [dB]: 5.09
+Result Maximum - Frequency [Hz]: 468700000.0
+Result Minimum - Frequency [Hz]: 478487500.0
+Frequency Response Channel 4-4: OK
+
+Frequency Response Test FINAL RESULT: OK
+############################################
+
+############################################
+Return Loss Test
+Test configuration:
+Network Analyzer - Center Frequency [Hz]: 475000000.0
+Network Analyzer - Span Frequency [Hz]: 90000000.0
+Network Analyzer - Start Bandwidth [Hz]: 465000000.0
+Network Analyzer - Stop Bandwidth [Hz]: 483000000.0
+Network Analyzer - Step Bandwidth [Hz]: 56250.0
+Network Analyzer - Power Level [dB]: -25.0
+Waveform Generator - DC Offset [V]: 3.0
+RFFE Attenuation [dB]: 30.0
+RF Switch 1 Position: 3-3
+Type of data acquired: S11 e S22
+
+Tolerance:
+Tolerance S11 Test
+Lower Boundary Tolerance [Reference Value] (abs)[dB]: 12.0
+Upper Boundary Tolerance [Reference Value] (real)[dB]: 0.0
+Tolerance S22 Test
+Lower Boundary Tolerance [Reference Value] (abs)[dB]: 16.0
+Upper Boundary Tolerance [Reference Value] (real)[dB]: 0.0
+
+Result Info:
+
+Return Loss: S11 TEST
+Channel 1-1
+Result Maximum (abs) [dB]: -9.76
+Result Maximum - Frequency [Hz]: 478093750.0
+Return Loss Channel 1-1: FAILED
+
+Channel 2 - 2
+Result Maximum (abs) [dB]: -9.91
+Result Maximum - Frequency [Hz]: 477981250.0
+Return Loss Channel 2-2: FAILED
+
+Channel 3-3
+Result Maximum (abs) [dB]: -10.93
+Result Maximum - Frequency [Hz]: 477643750.0
+Return Loss Channel 3-3: FAILED
+
+Channel 4 - 4
+Result Maximum (abs) [dB]: -10.88
+Result Maximum - Frequency [Hz]: 477362500.0
+Return Loss Channel 4-4: FAILED
+
+Return Loss Test S11: FAIL
+
+Return Loss: S22 TEST
+Channel 1-1
+Result Maximum (abs) [dB]: -18.06
+Result Maximum - Frequency [Hz]: 481750000.0
+Return Loss Channel 1-1: OK
+
+Channel 2 - 2
+Result Maximum (abs) [dB]: -17.37
+Result Maximum - Frequency [Hz]: 472300000.0
+Return Loss Channel 2-2: OK
+
+Channel 3-3
+Result Maximum (abs) [dB]: -20.72
+Result Maximum - Frequency [Hz]: 468868750.0
+Return Loss Channel 3-3: OK
+
+Channel 4 - 4
+Result Maximum (abs) [dB]: -21.41
+Result Maximum - Frequency [Hz]: 465100000.0
+Return Loss Channel 4-4: OK
+
+Return Loss Test S22: OK
+Return Loss Test FINAL RESULT: FAIL
+############################################
+
+############################################
+Power Sweep (Linearity) Test
+Test configuration:
+Network Analyzer - Center Frequency [Hz]: 475000000.0
+Network Analyzer - Span Frequency [Hz]: 90000000.0
+Network Analyzer - Average Factor: 10
+Waveform Generator - DC Offset [V]: 3.0
+RFFE Attenuation [dB]: 30.0
+Type of data acquired: S21
+
+Tolerance:
+Lower Boundary Tolerance [Reference Value] (abs)[dB]: 0.2
+Upper Boundary Tolerance [Reference Value] (real)[dB]: 0.2
+
+Result Info:
+
+Switch 2 - Channel 1-1
+Running power sweep test: 1dB of Attenuation - Switch 1 - Channel: 2-2
+Data Acquired:
+Input Power [dB]    Measurement [dB]    
+-45.0               5.0                 
+-40.0               4.97                
+-35.0               5.01                
+-30.0               5.0                 
+-25.0               5.01                
+Running power sweep test: 5dB of Attenuation - Switch 1 - Channel: 1-1
+Data Acquired:
+Input Power [dB]    Measurement [dB]    
+-45.0               0.91                
+-40.0               0.89                
+-35.0               0.9                 
+-30.0               0.9                 
+-25.0               0.91                
+Final Result:
+Measurement         Result [dB]         
+1                   0.09                
+2                   0.08                
+3                   0.11                
+4                   0.1                 
+5                   0.1                 
+Linearity Test Channel 1-1: OK
+
+
+Switch 2 - Channel 2-2
+Running power sweep test: 1dB of Attenuation - Switch 1 - Channel: 2-2
+Data Acquired:
+Input Power [dB]    Measurement [dB]    
+-45.0               4.56                
+-40.0               4.63                
+-35.0               4.63                
+-30.0               4.63                
+-25.0               4.64                
+Running power sweep test: 5dB of Attenuation - Switch 1 - Channel: 1-1
+Data Acquired:
+Input Power [dB]    Measurement [dB]    
+-45.0               0.58                
+-40.0               0.52                
+-35.0               0.53                
+-30.0               0.54                
+-25.0               0.54                
+Final Result:
+Measurement         Result [dB]         
+1                   0.02                
+2                   0.11                
+3                   0.1                 
+4                   0.09                
+5                   0.1                 
+Linearity Test Channel 2-2: OK
+
+
+Switch 2 - Channel 3-3
+Running power sweep test: 1dB of Attenuation - Switch 1 - Channel: 2-2
+Data Acquired:
+Input Power [dB]    Measurement [dB]    
+-45.0               4.83                
+-40.0               4.84                
+-35.0               4.83                
+-30.0               4.83                
+-25.0               4.83                
+Running power sweep test: 5dB of Attenuation - Switch 1 - Channel: 1-1
+Data Acquired:
+Input Power [dB]    Measurement [dB]    
+-45.0               0.72                
+-40.0               0.72                
+-35.0               0.72                
+-30.0               0.72                
+-25.0               0.72                
+Final Result:
+Measurement         Result [dB]         
+1                   0.11                
+2                   0.12                
+3                   0.11                
+4                   0.11                
+5                   0.11                
+Linearity Test Channel 3-3: OK
+
+
+Switch 2 - Channel 4-4
+Running power sweep test: 1dB of Attenuation - Switch 1 - Channel: 2-2
+Data Acquired:
+Input Power [dB]    Measurement [dB]    
+-45.0               4.82                
+-40.0               4.83                
+-35.0               4.85                
+-30.0               4.85                
+-25.0               4.85                
+Running power sweep test: 5dB of Attenuation - Switch 1 - Channel: 1-1
+Data Acquired:
+Input Power [dB]    Measurement [dB]    
+-45.0               0.76                
+-40.0               0.73                
+-35.0               0.74                
+-30.0               0.74                
+-25.0               0.74                
+Final Result:
+Measurement         Result [dB]         
+1                   0.06                
+2                   0.1                 
+3                   0.11                
+4                   0.11                
+5                   0.11                
+Linearity Test Channel 4-4: OK
+
+Linearity Test FINAL RESULT: OK
+############################################
+
+############################################
+Crosstalk Test Test
+Test configuration:
+Network Analyzer - Center Frequency [Hz]: 475000000.0
+Network Analyzer - Span Frequency [Hz]: 90000000.0
+Network Analyzer - Start Bandwidth [Hz]: 465000000.0
+Network Analyzer - Stop Bandwidth [Hz]: 483000000.0
+Network Analyzer - Step Bandwidth [Hz]: 56250.0
+Network Analyzer - Power Level [dB]: -25.0
+Waveform Generator - DC Offset [V]: 3.0
+RFFE Attenuation [dB]: 30.0
+RF Switch 1 Position: 3-3
+Type of data acquired: S21
+
+Tolerance:
+Lower Boundary Tolerance [Reference Value] (abs) [dB]: 34.0
+
+Result Info:
+
+Channel 1-2
+Crosstalk [dB]: 38.32
+Crosstalk Channel 1-2: OK
+
+Channel 2-1
+Crosstalk [dB]: 37.68
+Crosstalk Channel 2-1: OK
+
+Channel 3-4
+Crosstalk [dB]: 38.54
+Crosstalk Channel 3-4: OK
+
+Channel 4-3
+Crosstalk [dB]: 38.71
+Crosstalk Channel 4-3: OK
+
+Crosstalk Test FINAL RESULT: OK
+############################################
+
+############################################
+Temperature Measurement Test
+Test configuration:
+Type of data acquired: Temperature
+
+Tolerance:
+Lower Boundary Tolerance [Reference Value] [°C]: 20.0
+Upper Boundary Tolerance [Reference Value] [°C]: 40.0
+
+Result Info:
+Measurement    Temperature [°C]
+1              34.16          
+2              34.16          
+3              34.16          
+4              34.16          
+5              34.16          
+Temperature Measurement Test: OK
+Temperature Measurement Test FINAL RESULT: OK
+############################################
+

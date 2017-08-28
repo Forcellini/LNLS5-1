@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1133</width>
+    <height>624</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Teste do Conversor AD</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>501</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Antes de iniciar o teste, favor confirmar os parâmetros da simulação abaixo.&lt;/p&gt;&lt;p&gt;Após isso, clique em INICIAR TESTE&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="START_BUTTON">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>570</y>
+      <width>87</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Iniciar Teste</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="STOP_BUTTON">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>570</y>
+      <width>87</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sair</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>38</x>
+      <y>170</y>
+      <width>221</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP DA CHAVE DE RF (SWITCH)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>231</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP DO GERADOR DE SINAIS (CLOCK)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>390</y>
+      <width>211</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>FREQUÊNCIA DO CLOCK [MHz]</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>140</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nº DE PTS DE FFT *</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>230</y>
+      <width>151</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nº DE REQUISIÇÕES ** </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>170</y>
+      <width>161</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nº DE PTS DO CRATE *</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>260</y>
+      <width>241</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>POSIÇÃO DO AFC NO CRATE (de 1 a 7)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>290</y>
+      <width>211</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>POSIÇÃO DO AD NO AFC (1 ou 0)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>91</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>IP DO CRATE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>370</y>
+      <width>81</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SNR [dBFS] &gt;=</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>430</y>
+      <width>101</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ENOB [bits] &gt;=</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>400</y>
+      <width>111</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SFDR [ dBFS] &gt;=</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>460</y>
+      <width>121</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CROSSTALK [dBFS] &gt;</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>431</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>231</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PARÂMETROS DE COMUNICAÇÃO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="POSICAO_AD">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>200</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="POSICAO_AFC">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>170</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="IP_SWITCH">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>80</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>10.0.18.15</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="IP_CRATE">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>50</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>10.0.18.18</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="IP_GERADOR_SINAIS_CLOCK">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>110</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>10.0.18.17</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="IP_GERADOR_SINAIS_INPUT">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>140</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>10.0.18.12</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_24">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>251</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>IP DO GERADOR DE SINAIS (SINAL ENT)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>90</y>
+      <width>311</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>301</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PARÂMETROS DE PRECISÃO DA SIMULAÇÃO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="N_FFT">
+     <property name="geometry">
+      <rect>
+       <x>232</x>
+       <y>50</y>
+       <width>71</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>99995</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="N_CRATE">
+     <property name="geometry">
+      <rect>
+       <x>232</x>
+       <y>80</y>
+       <width>71</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>100000</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="N_REQUISICOES">
+     <property name="geometry">
+      <rect>
+       <x>232</x>
+       <y>140</y>
+       <width>71</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_32">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>221</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nº DE PTS DO CRATE (MIS. CODES)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="N_CRATE_MISSINGCODES">
+     <property name="geometry">
+      <rect>
+       <x>232</x>
+       <y>110</y>
+       <width>71</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1000000</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>340</y>
+      <width>431</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>311</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PARÂMETROS DO SINAL DE CLOCK/ENTRADA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>261</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>FREQUÊNCIA DO SINAL DE ENTRADA [MHz]</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>271</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>AMPLITUDE DO CLOCK [dBm]</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="AMP_IN">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>140</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>9.5</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="AMP_CLOCK">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>110</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="FREQ_CLOCK">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>50</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>118.23</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="FREQ_IN">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>80</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>499.944</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>261</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>AMPLITUDE DO SINAL DE ENTRADA [dBm]</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>320</y>
+      <width>311</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_21">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>291</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PARÂMETROS DE CRITÉRIO DE APROVAÇÃO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>170</y>
+       <width>121</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>MISSING CODE:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="MISSINGCODE_CRITERIO">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>170</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="ENOB_CRITERIO">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>110</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="SFDR_CRITERIO">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>80</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>65</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="SNR_CRITERIO">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>50</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>50</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CROSSTALK_CRITERIO">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>140</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>100</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_25">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>200</y>
+       <width>161</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>DIFERENÇA AMPL. [dB]:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="DIF_AMPL_CRITERIO">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>200</y>
+       <width>123</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>0.001</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>270</y>
+      <width>311</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_23">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>301</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;TESTES A SEREM REALIZADOS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_enob">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>80</y>
+       <width>104</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ENOB</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_sfdr">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>110</y>
+       <width>104</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SFDR</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_crosstalk">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>140</y>
+       <width>104</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CROSSTALK</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_missingcodes">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>170</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>MISSING CODES</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_all">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>240</y>
+       <width>104</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TODOS</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_dif_ampl">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>200</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>DIFERENÇA AMPL.</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_snr">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>60</y>
+       <width>55</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SNR</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_eeprom">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>60</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>EEPROM</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_ics854s01i">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>110</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ICS854S01I</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_sensor_temperatura">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>170</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>SENSOR TEMP.</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_ad9510">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>140</y>
+       <width>104</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>AD9510</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="check_si571">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>80</y>
+       <width>104</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Si571</string>
+     </property>
+     <property name="autoExclusive">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_6">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>90</y>
+      <width>311</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_26">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>291</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PAR. DO SINAL DE CLOCK/ENTRADA&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;(Missing Codes)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_27">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>191</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>FREQ. DO SINAL ENT. [MHz]</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_28">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>191</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>AMP. DO CLOCK [dBm]</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="AMP_IN_MISSINGCODES">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>150</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>9.5</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="AMP_CLOCK_MISSINGCODES">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>120</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="FREQ_CLOCK_MISSINGCODES">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>60</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>118.226944</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="FREQ_IN_MISSINGCODES">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>90</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>472.909580</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_29">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>191</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>AMP.  DO SINAL DE ENT. [dBm]</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_30">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>191</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>FREQ. DO SINAL CLOCK [MHz]</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_31">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>191</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>PERDA NO FILTRO [dBm]</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="PERDA_FILTRO_MISSINGCODES">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>180</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QCheckBox" name="checkGraficos">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>60</y>
+      <width>135</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Habilitar Gráficos</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkGravarFPGA">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>20</y>
+      <width>135</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Gravar FPGA</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkUtilizarMATLAB">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>40</y>
+      <width>135</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Utilizar MATLAB</string>
+    </property>
+   </widget>
+   <widget class="QDateTimeEdit" name="dateTimeEdit_MainScreen">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>40</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="wrapping">
+     <bool>false</bool>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="buttonSymbols">
+     <enum>QAbstractSpinBox::NoButtons</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_33">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>570</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;* SNR, SFDR, ENOB, CROSSTALK, DIF. AMP.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;** SNR, SFDR, ENOB, CROSSTALK&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="OPERADOR">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>20</y>
+      <width>81</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fernando</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="N_SERIE_ADC">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>50</y>
+      <width>81</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1111111</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_34">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>23</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Operador</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_35">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>50</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>N. Série ADC</string>
+    </property>
+   </widget>
+   <zorder>frame_4</zorder>
+   <zorder>frame_3</zorder>
+   <zorder>frame_2</zorder>
+   <zorder>frame</zorder>
+   <zorder>label</zorder>
+   <zorder>START_BUTTON</zorder>
+   <zorder>STOP_BUTTON</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_14</zorder>
+   <zorder>label_15</zorder>
+   <zorder>label_16</zorder>
+   <zorder>label_17</zorder>
+   <zorder>label_18</zorder>
+   <zorder>frame_5</zorder>
+   <zorder>frame_6</zorder>
+   <zorder>checkGraficos</zorder>
+   <zorder>checkGravarFPGA</zorder>
+   <zorder>checkUtilizarMATLAB</zorder>
+   <zorder>dateTimeEdit_MainScreen</zorder>
+   <zorder>label_33</zorder>
+   <zorder>OPERADOR</zorder>
+   <zorder>N_SERIE_ADC</zorder>
+   <zorder>label_34</zorder>
+   <zorder>label_35</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>IP_CRATE</tabstop>
+  <tabstop>IP_SWITCH</tabstop>
+  <tabstop>IP_GERADOR_SINAIS_CLOCK</tabstop>
+  <tabstop>IP_GERADOR_SINAIS_INPUT</tabstop>
+  <tabstop>POSICAO_AFC</tabstop>
+  <tabstop>POSICAO_AD</tabstop>
+  <tabstop>FREQ_CLOCK</tabstop>
+  <tabstop>FREQ_IN</tabstop>
+  <tabstop>AMP_CLOCK</tabstop>
+  <tabstop>AMP_IN</tabstop>
+  <tabstop>FREQ_CLOCK_MISSINGCODES</tabstop>
+  <tabstop>FREQ_IN_MISSINGCODES</tabstop>
+  <tabstop>AMP_CLOCK_MISSINGCODES</tabstop>
+  <tabstop>AMP_IN_MISSINGCODES</tabstop>
+  <tabstop>PERDA_FILTRO_MISSINGCODES</tabstop>
+  <tabstop>SNR_CRITERIO</tabstop>
+  <tabstop>SFDR_CRITERIO</tabstop>
+  <tabstop>ENOB_CRITERIO</tabstop>
+  <tabstop>CROSSTALK_CRITERIO</tabstop>
+  <tabstop>MISSINGCODE_CRITERIO</tabstop>
+  <tabstop>DIF_AMPL_CRITERIO</tabstop>
+  <tabstop>N_FFT</tabstop>
+  <tabstop>N_CRATE</tabstop>
+  <tabstop>N_CRATE_MISSINGCODES</tabstop>
+  <tabstop>N_REQUISICOES</tabstop>
+  <tabstop>check_snr</tabstop>
+  <tabstop>check_enob</tabstop>
+  <tabstop>check_sfdr</tabstop>
+  <tabstop>check_crosstalk</tabstop>
+  <tabstop>check_missingcodes</tabstop>
+  <tabstop>check_dif_ampl</tabstop>
+  <tabstop>check_eeprom</tabstop>
+  <tabstop>check_si571</tabstop>
+  <tabstop>check_ics854s01i</tabstop>
+  <tabstop>check_ad9510</tabstop>
+  <tabstop>check_sensor_temperatura</tabstop>
+  <tabstop>check_all</tabstop>
+  <tabstop>checkGravarFPGA</tabstop>
+  <tabstop>checkUtilizarMATLAB</tabstop>
+  <tabstop>checkGraficos</tabstop>
+  <tabstop>START_BUTTON</tabstop>
+  <tabstop>STOP_BUTTON</tabstop>
+  <tabstop>dateTimeEdit_MainScreen</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

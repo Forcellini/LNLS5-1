@@ -1,0 +1,3 @@
+scp root@10.0.18.18:/media/remote_logs/*.log .
+scp root@10.0.18.18:/var/log/messages .
+scp root@10.0.18.18:/usr/local/etc/halcs/halcs.cfg .

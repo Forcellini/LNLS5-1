@@ -1,0 +1,1040 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_types.h"
+#include "xstatus.h"
+#include "xil_testmem.h"
+#include "xtmrctr_l.h"
+#include "platform.h"
+#include "memory_config.h"
+#include "xil_printf.h"
+#include "xintc_l.h"
+#include "xil_io.h"
+#include "xil_exception.h"
+#include "interr.h"
+#include "xil_testmem.h"
+#include "xil_io.h"
+#include "xil_assert.h"
+#include "xtmrctr.h"
+
+
+void putnum(unsigned int num);
+s32 Xil_TestMem32(struct memory_range_s *range);
+
+void test_memory_range(struct memory_range_s *range) {
+    XStatus status;
+
+    print("Testing memory region: "); print(range->name);  print("\n\r");
+    print("    Memory Controller: "); print(range->ip);  print("\n\r");
+    #ifdef __MICROBLAZE__
+        print("         Base Address: 0x"); putnum(range->base); print("\n\r");
+        print("                 Size: 0x"); putnum(range->size); print (" bytes \n\r");
+    #else
+        xil_printf("         Base Address: 0x%08x \n\r",range->base);
+        xil_printf("                 Size: 0x%08x bytes \n\r",range->size);
+    #endif
+
+    status = Xil_TestMem32(range);
+    print("          32-bit test: "); print(status == XST_SUCCESS? "PASSED!":"FAILED!"); print("\n\r");
+    print("\n\r");
+    print("\n\r");
+    print("\n\r");
+	print("          Type 'exit' to leave ");print("\n\r");
+	print("\n\r");print("\n\r");print("\n\r");
+
+
+
+}
+
+s32 Xil_TestMem32(struct memory_range_s *range)
+{
+	int offset = range->base + 0;
+		char *addr = (char*)(offset);
+
+		char Val;
+		char FirtVal = 1;
+		u32 WordMem32;
+		xil_printf("     BLOCK 1 \n\r");
+		Val = FirtVal;
+
+		int I = 0;
+		while( (I + offset) < (67108864 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     1 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (67108864 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 1 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     1 of 32 READ \n\r");
+
+
+
+
+
+
+		I = 0;
+		offset = range->base + 67108864;
+		xil_printf("     BLOCK 2 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (134217728 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     2 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (134217728 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 2 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     2 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 134217728;
+		xil_printf("     BLOCK 3 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (201326592 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     3 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (201326592 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 3 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     3 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 201326592;
+		xil_printf("     BLOCK 4 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (268435456 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     4 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (268435456 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 4 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     4 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 268435456;
+		xil_printf("     BLOCK 5 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (335544320 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     5 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (335544320 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 5 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     5 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 335544320;
+		xil_printf("     BLOCK 6 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (402653184 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     6 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (402653184 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 6 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     6 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 402653184;
+		xil_printf("     BLOCK 7 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (469762048 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     7 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (469762048 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 7 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     7 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 469762048;
+		xil_printf("     BLOCK 8 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (536870912 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     8 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (536870912 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 8 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     8 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 536870912;
+		xil_printf("     BLOCK 3 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (603979776 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     9 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (603979776 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 9 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     9 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 603979776;
+		xil_printf("     BLOCK 10 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (671088640 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     10 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (671088640 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 10 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     10 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 671088640;
+		xil_printf("     BLOCK 11 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (738197504 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     11 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (738197504 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 11 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     11 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 738197504;
+		xil_printf("     BLOCK 12 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (805306368 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     12 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (805306368 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 12 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     12 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 805306368;
+		xil_printf("     BLOCK 13 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (872415232 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     13 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (872415232 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 13 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     3 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 872415232;
+		xil_printf("     BLOCK 14 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (939524096 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     14 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (939524096 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 14 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     14 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 939524096;
+		xil_printf("     BLOCK 3 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1006632960 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     15 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1006632960 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 15 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     15 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1006632960;
+		xil_printf("     BLOCK 16 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1073741824 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     16 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1073741824 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 16 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     16 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1073741824;
+		xil_printf("     BLOCK 17 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1140850688 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     17 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1140850688 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 17 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     17 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1140850688;
+		xil_printf("     BLOCK 18 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1207959552 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     18 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1207959552 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 18 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     18 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1207959552;
+		xil_printf("     BLOCK 19 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1275068416 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     19 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1275068416 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 19 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     19 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1275068416;
+		xil_printf("     BLOCK 20 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1342177280 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     20 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1342177280 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 20 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     20 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1342177280;
+		xil_printf("     BLOCK 21 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1409286144 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     21 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1409286144 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 21 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     21 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1409286144;
+		xil_printf("     BLOCK 22 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1476395008 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     22 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1476395008 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 22 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     22 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1476395008;
+		xil_printf("     BLOCK 23 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1543503872 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     23 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1543503872 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 23 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     23 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1543503872;
+		xil_printf("     BLOCK 24 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1610612736 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     24 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1610612736 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 24 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     24 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1610612736;
+		xil_printf("     BLOCK 25 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1677721600 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     25 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1677721600 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 25 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     25 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1677721600;
+		xil_printf("     BLOCK 26 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1744830464 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     26 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1744830464 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 26 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     26 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1744830464;
+		xil_printf("     BLOCK 27 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1811939328 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     27 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1811939328 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 27 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     27 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1811939328;
+		xil_printf("     BLOCK 28 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1879048192 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     28 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1879048192 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 28 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     28 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1879048192;
+		xil_printf("     BLOCK 29 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (1946157056 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     29 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (1946157056 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 29 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     29 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 1946157056;
+		xil_printf("     BLOCK 30 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (2013265920 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     30 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (2013265920 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 30 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     30 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 2013265920;
+		xil_printf("     BLOCK 31 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (2080374784 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     31 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (2080374784 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 31 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     31 of 32 READ \n\r");
+
+
+
+
+		I = 0;
+		offset = range->base + 2080374784;
+		xil_printf("     BLOCK 32 \n\r");
+		Val = FirtVal;
+
+		while( (I + offset) < (2147483647 + range->base) )
+		{
+			*(addr + I) = Val;
+			Val++;
+			I++;
+		}
+		xil_printf("     32 of 32 WRITTEN\n\r");
+		Val = FirtVal;
+		I = 0;
+		while( (I + offset) < (2147483647 + range->base) )
+			{
+				WordMem32 = *(addr + I);
+				if (WordMem32 != Val)
+				{
+					xil_printf( "     REGISTER ERROR BLOCK 32 \n\r");
+					break;
+				}
+				Val++;
+				I++;
+			}
+		xil_printf("     32 of 32 READ \n\r");
+
+
+
+
+		return(0);
+
+}
+
+
+
+int main()
+{
+
+    init_platform();
+
+    print("--Starting Memory Test Application--\n\r");
+    print("NOTE: This application runs with D-Cache disabled.");
+    print("As a result, cacheline requests will not be generated\n\r");
+
+
+        test_memory_range(&memory_ranges[0]);
+
+    print("--Memory Test Application Complete--\n\r");
+
+    cleanup_platform();
+
+return(0);
+}

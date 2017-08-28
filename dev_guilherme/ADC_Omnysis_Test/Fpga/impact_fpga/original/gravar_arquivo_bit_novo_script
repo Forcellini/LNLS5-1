@@ -1,0 +1,10 @@
+setMode -bs
+setMode -bs
+setMode -bs
+setMode -bs
+setCable -port auto
+Identify -inferir
+identifyMPM
+assignFile -p 1 -file "/home/tadeu/Desktop/Link_para_ADC_Python/Fpga/impact_fpga/afcv3-bpm-gw-fmc130m-v0.3-20161209-f1849bfc98.bit"
+program -p 1
+quit

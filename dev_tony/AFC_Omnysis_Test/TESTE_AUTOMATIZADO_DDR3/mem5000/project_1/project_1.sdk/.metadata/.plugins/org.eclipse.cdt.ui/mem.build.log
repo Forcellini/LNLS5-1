@@ -1,0 +1,40 @@
+14:40:10 **** Auto Build of configuration Debug for project mem ****
+make all 
+Building file: ../src/memorytest.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/memorytest.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/memorytest.d" -MT"src/memorytest.o" -o "src/memorytest.o" "../src/memorytest.c"
+../src/memorytest.c: In function 'test_memory_range':
+../src/memorytest.c:79:14: warning: implicit declaration of function 'Xil_TestMem32' [-Wimplicit-function-declaration]
+     status = Xil_TestMem32((u32*)range->base, 1024, 0xAAAA5555, XIL_TESTMEM_ALLMEMTESTS);
+              ^
+../src/memorytest.c:82:14: warning: implicit declaration of function 'Xil_TestMem16' [-Wimplicit-function-declaration]
+     status = Xil_TestMem16((u16*)range->base, 2048, 0xAA55, XIL_TESTMEM_ALLMEMTESTS);
+              ^
+../src/memorytest.c:85:14: warning: implicit declaration of function 'Xil_TestMem8' [-Wimplicit-function-declaration]
+     status = Xil_TestMem8((u8*)range->base, 4096, 0xA5, XIL_TESTMEM_ALLMEMTESTS);
+              ^
+Finished building: ../src/memorytest.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/xtmrctr.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xtmrctr.o" -I../../mem_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/xtmrctr.d" -MT"src/xtmrctr.o" -o "src/xtmrctr.o" "../src/xtmrctr.c"
+Finished building: ../src/xtmrctr.c
+ 
+Building target: mem.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../mem_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "mem.elf"  ./src/memory_config_g.o ./src/memorytest.o ./src/platform.o ./src/xtmrctr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/memorytest.o: In function `test_memory_range':
+/home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/mem/Debug/../src/memorytest.c:79: undefined reference to `Xil_TestMem32'
+makefile:36: recipe for target 'mem.elf' failed
+/home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/mem/Debug/../src/memorytest.c:82: undefined reference to `Xil_TestMem16'
+/home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/mem/Debug/../src/memorytest.c:85: undefined reference to `Xil_TestMem8'
+collect2: error: ld returned 1 exit status
+make: *** [mem.elf] Error 1
+
+14:40:10 Build Finished (took 367ms)
+

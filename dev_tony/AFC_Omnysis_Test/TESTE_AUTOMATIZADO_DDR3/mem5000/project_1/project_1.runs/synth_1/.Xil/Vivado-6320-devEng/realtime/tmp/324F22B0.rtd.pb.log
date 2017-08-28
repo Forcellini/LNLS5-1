@@ -1,0 +1,52 @@
+xilinx rtfpga
+WARNING: [Synth 8-3332] Sequential element (u_poc_tap_base/samps_hi_held_r_reg[17]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_lead_r_reg[6]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_lead_r_reg[5]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_lead_r_reg[4]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_lead_r_reg[3]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_lead_r_reg[2]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_lead_r_reg[1]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_lead_r_reg[0]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_trail_r_reg[6]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_trail_r_reg[5]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_trail_r_reg[4]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_trail_r_reg[3]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_trail_r_reg[2]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_trail_r_reg[1]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_right/fall_trail_r_reg[0]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_lead_r_reg[6]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_lead_r_reg[5]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_lead_r_reg[4]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_lead_r_reg[3]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_lead_r_reg[2]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_lead_r_reg[1]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_lead_r_reg[0]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_trail_r_reg[6]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_trail_r_reg[5]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_trail_r_reg[4]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_trail_r_reg[3]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_trail_r_reg[2]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_trail_r_reg[1]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_left/fall_trail_r_reg[0]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_lead_r_reg[6]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_lead_r_reg[5]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_lead_r_reg[4]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_lead_r_reg[3]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_lead_r_reg[2]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_lead_r_reg[1]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_lead_r_reg[0]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_trail_r_reg[6]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_trail_r_reg[5]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_trail_r_reg[4]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_trail_r_reg[3]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_trail_r_reg[2]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_trail_r_reg[1]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+WARNING: [Synth 8-3332] Sequential element (u_edge_center/fall_trail_r_reg[0]) is unused and will be removed from module mig_7series_v4_0_poc_top.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_poc_cc/\dbg_poc_r_reg[102] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_poc_cc/\dbg_poc_r_reg[103] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_poc_cc/\dbg_poc_r_reg[104] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_poc_cc/\dbg_poc_r_reg[105] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_poc_cc/\dbg_poc_r_reg[106] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_poc_cc/\dbg_poc_r_reg[107] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_poc_cc/\dbg_poc_r_reg[108] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_poc_cc/\dbg_poc_r_reg[109] )

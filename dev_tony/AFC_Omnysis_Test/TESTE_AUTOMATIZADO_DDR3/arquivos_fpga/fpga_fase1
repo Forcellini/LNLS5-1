@@ -1,0 +1,8 @@
+setMode -bs
+setCable -port auto
+identifyMPM
+addDevice -p 1 -file "afcv3-scansta-fpga-cfg.svf"
+Play
+Identify -inferir
+identifyMPM
+quit

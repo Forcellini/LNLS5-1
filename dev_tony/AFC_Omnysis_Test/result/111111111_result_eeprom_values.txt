@@ -1,0 +1,12 @@
+Teste da Placa: AFC - Dados do Componente EEPROM
+
+
+Número de Série: 111111111
+Data/Horário do Início do Teste:2017-04-11 16:13:45
+Data/Horário do Fim do Teste: 2017-04-11 16:13:55
+Duração do Teste: 0.1775 min
+
+
+Valores Adquiridos:
+Pos. Memória    Valor Escrito    Valor Lido
+    -            -                -

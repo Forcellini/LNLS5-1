@@ -1,0 +1,101 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 4825
+
+Current time: 	5/12/17 3:53:51 PM BRT
+Time zone: 	Brasilia Time (America/Sao_Paulo)
+
+OS: PRETTY_NAME="Debian GNU/Linux 8 (jessie)"
+Version: 3.16.0-4-amd64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0
+Screen size: 1366x768
+Screen resolution (DPI): 102
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	tadeu
+User home directory: /home/tadeu
+User working directory: /home/tadeu/workspace/AFC_Loopback
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /home/tadeu/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /home/tadeu/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	195 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,876 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// TclEventType: STOP_PROGRESS_DIALOG
+// bL:g (cv:JFrame):  Sourcing Tcl script '/home/engenharia/Project_Test/GTP.tcl' : addNotify
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: source /home/engenharia/Project_Test/GTP.tcl 
+dismissDialog("Sourcing Tcl script '/home/engenharia/Project_Test/GTP.tcl'"); // bL:g (cv:JFrame)
+// Tcl Message: couldn't read file "/home/engenharia/Project_Test/GTP.tcl": no such file or directory 
+// [GUI Memory]: 33 MB (+32294kb) [00:00:05]
+// [Engine Memory]: 4,873 MB (+4958620kb) [00:00:05]
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.xpr", 0); // q:v (JViewport:JComponent, cv:JFrame)
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 4,930 MB. GUI used memory: 22 MB. Current time: 5/12/17 3:53:53 PM BRT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 75 MB (+42358kb) [00:00:15]
+// [GUI Memory]: 86 MB (+6930kb) [00:00:16]
+// [Engine Memory]: 5,118 MB (+1083kb) [00:00:16]
+// [GUI Memory]: 90 MB (+133kb) [00:00:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1; part: xc7a200tffg1156-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:13 . Memory (MB): peak = 6024.941 ; gain = 274.898 ; free physical = 725 ; free virtual = 20079 
+// Elapsed time: 13 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// ai:x (cv:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ai:x)
+dismissDialog("Launch SDK"); // ai:x (cv:JFrame)
+// Tcl Message: launch_sdk -workspace /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk -hwspec /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk -hwspec /home/tadeu/workspace/AFC_Omnysis_Test/TESTE_AUTOMATIZADO_DDR3/mem5000/project_1/project_1.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 95 MB (+193kb) [00:00:43]
+// [GUI Memory]: 100 MB (+346kb) [00:06:20]

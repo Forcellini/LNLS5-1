@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon May 15 15:42:06 2017
+# Process ID: 8421
+# Current directory: /home/tadeu/workspace/AFC_Loopback
+# Command line: vivado -source /home/tadeu/workspace/AFC_Loopback/RTM_IO.tcl
+# Log file: /home/tadeu/workspace/AFC_Loopback/vivado.log
+# Journal file: /home/tadeu/workspace/AFC_Loopback/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source /home/tadeu/workspace/AFC_Loopback/RTM_IO.tcl
+# open_hw
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'.
+# connect_hw_server -url localhost:3121
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:54:00
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+ERROR: [Labtoolstcl 44-494] There is no active target available for server at localhost:3121.
+ Targets(s) ", jsn-DLC10-000015de7ac201" may be locked by another hw_server.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May 15 15:42:26 2017...

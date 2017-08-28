@@ -1,0 +1,2558 @@
+MIG: 08:11:25 : Running customizer.xit
+MIG: 08:11:25 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 08:11:25 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0
+MIG: 08:11:25 : synp_flow:  -- synthesis_mode: Other
+MIG: 08:11:25 : outputDirectory: /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 08:11:25 : vivado_mode: xpg_bd
+MIG: 08:11:25 :  locked false  
+MIG: 08:11:25 : HDL Language: Verilog
+MIG: 08:11:25 : compInfo: false
+MIG: 08:11:25 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 08:11:25 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 08:11:25 : I am in catch area
+MIG: 08:11:25 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 08:20:37 : Prasad before: xmlPropertyPrj -- .prj
+MIG: 08:20:37 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 08:20:37 : XML_INPUT_FILE: /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0/mig_a.prj
+MIG: 08:20:37 : Component_Name: design_1_mig_7series_0_0
+MIG: 08:20:37 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 08:20:37 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 08:20:37 : Moving design_1_mig_7series_0_0 ...
+MIG: 08:20:37 : Sending back 0
+MIG: 08:20:38 : xml_input_file: mig_a.prj
+MIG: 08:20:38 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 08:20:38 : xml_input_file: mig_a.prj
+MIG: 08:20:38 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 08:20:38 : In updateAllModelParams
+MIG: 08:20:38 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:20:38 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 08:20:38 : XGUI hdlLanguage: Verilog
+MIG: 08:20:38 : xgui vivado_mode: xpg_bd
+MIG: 08:20:38 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 08:20:38 : Reading /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 08:20:40 : 1
+MIG: 08:20:40 : Inside fn mem: DDR3
+MIG: 08:20:40 : QDRII+ Inside fn ui: 100000000
+MIG: 08:20:40 : cntrl:  memtype: DDR3
+MIG: 08:20:40 : 800
+MIG: 08:20:40 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 08:20:40 : 
+MIG: 08:20:40 : 1
+MIG: 08:20:40 : 100000000
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  polarity_value: 1
+MIG: 08:20:40 : 
+MIG: 08:20:40 : 
+MIG: 08:20:40 : cntrl:  memtype: DDR3
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 08:20:40 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 08:20:40 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 5
+MIG: 08:20:40 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 08:20:40 : 4
+MIG: 08:20:40 :  Valid Param: DDR3_DM_WIDTH ==> 4
+MIG: 08:20:40 : 32
+MIG: 08:20:40 :  Valid Param: DDR3_DQ_WIDTH ==> 32
+MIG: 08:20:40 : 4
+MIG: 08:20:40 :  Valid Param: DDR3_DQS_WIDTH ==> 4
+MIG: 08:20:40 : 2
+MIG: 08:20:40 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 2
+MIG: 08:20:40 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: ECC ==> OFF
+MIG: 08:20:40 : 32
+MIG: 08:20:40 :  Valid Param: DDR3_DATA_WIDTH ==> 32
+MIG: 08:20:40 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 08:20:40 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 08:20:40 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 08:20:40 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 08:20:40 : 15
+MIG: 08:20:40 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 08:20:40 : 29
+MIG: 08:20:40 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 08:20:40 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 08:20:40 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 08:20:40 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 08:20:40 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 08:20:40 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 08:20:40 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 08:20:40 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 08:20:40 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 08:20:40 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 08:20:40 :  Invalid Param: DDR3_CL ==> 6
+MIG: 08:20:40 :  Invalid Param: DDR3_CWL ==> 5
+MIG: 08:20:40 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 08:20:40 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 08:20:40 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 08:20:40 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 08:20:40 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 10000
+MIG: 08:20:40 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 08:20:40 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 08:20:40 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 08:20:40 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 08:20:40 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 08:20:40 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 08:20:40 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 08:20:40 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 08:20:40 :  Invalid Param: DDR3_MMCM_MULT_F ==> 8
+MIG: 08:20:40 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 08:20:40 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 08:20:40 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 08:20:40 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 08:20:40 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 08:20:40 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 08:20:40 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 08:20:40 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 08:20:40 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 08:20:40 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 08:20:40 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 08:20:40 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 08:20:40 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 08:20:40 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 08:20:40 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 08:20:40 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b0000
+MIG: 08:20:40 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 08:20:40 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b0000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 08:20:40 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FD_2FF_2FF
+MIG: 08:20:40 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFFA_FF3_CC0_000
+MIG: 08:20:40 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_12
+MIG: 08:20:40 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11A_117_12A_11B_13A_125_120_12B_126_131_129_116_124_121_128
+MIG: 08:20:40 :  Invalid Param: DDR3_BANK_MAP ==> 36'h136_137_13B
+MIG: 08:20:40 :  Invalid Param: DDR3_CAS_MAP ==> 12'h135
+MIG: 08:20:40 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 08:20:40 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_127
+MIG: 08:20:40 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_138
+MIG: 08:20:40 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_133
+MIG: 08:20:40 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 08:20:40 :  Invalid Param: DDR3_RAS_MAP ==> 12'h139
+MIG: 08:20:40 :  Invalid Param: DDR3_WE_MAP ==> 12'h134
+MIG: 08:20:40 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_03_02_01_00
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h009_006_002_004_003_007_000_005
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h017_014_010_015_013_011_016_019
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h024_026_023_027_022_025_020_029
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h034_037_031_035_033_036_032_039
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_000_000_000_000_038_028_012_001
+MIG: 08:20:40 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 08:20:40 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 08:20:40 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 08:20:40 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 08:20:40 :  Invalid Param: DDR3_BANK_TYPE ==> "HR_IO"
+MIG: 08:20:40 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 08:20:40 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 08:20:40 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 08:20:40 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 08:20:40 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 08:20:40 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 08:20:40 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 08:20:40 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 08:20:40 :  Invalid Param: DDR3_IDELAY_ADJ ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_FINE_PER_BIT ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "OFF"
+MIG: 08:20:40 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 08:20:40 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 08:20:40 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 08:20:40 :  Invalid Param: DDR3_REFCLK_TYPE ==> "NO_BUFFER"
+MIG: 08:20:40 :  Invalid Param: DDR3_SYS_RST_PORT ==> "TRUE"
+MIG: 08:20:40 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 1
+MIG: 08:20:40 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 08:20:40 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 08:20:40 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 08:20:40 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 08:20:40 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "FALSE"
+MIG: 08:20:40 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 08:20:40 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 08:20:40 :  Invalid Param: DDR3_tCK ==> 2500
+MIG: 08:20:40 : 4
+MIG: 08:20:40 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 08:20:40 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: UI_EXTRA_CLOCKS ==> FALSE
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 08:20:40 : 1073741824
+MIG: 08:20:40 :  Valid Param: C_S_AXI_MEM_SIZE ==> 1073741824
+MIG: 08:20:40 : 30
+MIG: 08:20:40 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 30
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 32
+MIG: 08:20:40 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 08:20:40 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 08:20:40 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 08:20:40 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 08:20:40 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 08:20:40 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 08:20:40 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 08:20:40 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 08:20:40 : 
+MIG: 08:20:40 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 08:20:40 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 08:20:40 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 08:20:40 : NOBUF
+MIG: 08:20:40 : NOBUF
+MIG: 08:20:40 : 
+MIG: 08:20:40 : Same Interface
+MIG: 08:20:50 : Running customizer.xit
+MIG: 08:20:50 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 08:20:50 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0
+MIG: 08:20:50 : synp_flow:  -- synthesis_mode: Other
+MIG: 08:20:50 : outputDirectory: /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 08:20:50 : vivado_mode: xpg_bd
+MIG: 08:20:50 :  locked false  
+MIG: 08:20:50 : HDL Language: Verilog
+MIG: 08:20:50 : compInfo: false
+MIG: 08:20:50 : Vivado Options xc7a200t ffg1156 -1
+MIG: 08:20:50 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 08:20:50 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 08:20:50 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 08:20:50 : I am in catch area
+MIG: 08:20:50 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 08:21:35 : Prasad before: xmlPropertyPrj -- mig_a.prj
+MIG: 08:21:35 : Prasad After: xmlPropertyPrj -- mig_b.prj
+MIG: 08:21:35 : XML_INPUT_FILE: /home/engenharia/.Xil/Vivado-3714-devEng/coregen/design_1_mig_7series_0_0/mig_b.prj
+MIG: 08:21:35 : Component_Name: design_1_mig_7series_0_0
+MIG: 08:21:35 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 08:21:35 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 08:21:35 : Moving design_1_mig_7series_0_0 ...
+MIG: 08:21:35 : Sending back 0
+MIG: 08:21:36 : xml_input_file: mig_b.prj
+MIG: 08:21:36 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 08:21:36 : xml_input_file: mig_b.prj
+MIG: 08:21:36 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 08:21:36 : In updateAllModelParams
+MIG: 08:21:36 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:21:36 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 08:21:36 : XGUI hdlLanguage: Verilog
+MIG: 08:21:36 : xgui vivado_mode: xpg_bd
+MIG: 08:21:36 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 08:21:36 : Reading /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 08:21:37 : 
+MIG: 08:21:37 : Inside fn mem: DDR3
+MIG: 08:21:37 : QDRII+ Inside fn ui: 100000000
+MIG: 08:21:37 : cntrl:  memtype: DDR3
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 08:21:37 : 
+MIG: 08:21:37 : 
+MIG: 08:21:37 : 
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  polarity_value: 1
+MIG: 08:21:37 : 
+MIG: 08:21:37 : 
+MIG: 08:21:37 : cntrl:  memtype: DDR3
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 08:21:37 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 08:21:37 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 5
+MIG: 08:21:37 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_DM_WIDTH ==> 4
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_DQ_WIDTH ==> 32
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_DQS_WIDTH ==> 4
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 2
+MIG: 08:21:37 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: ECC ==> OFF
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_DATA_WIDTH ==> 32
+MIG: 08:21:37 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 08:21:37 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 08:21:37 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 08:21:37 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 08:21:37 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 08:21:37 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 08:21:37 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 08:21:37 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 08:21:37 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 08:21:37 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 08:21:37 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 08:21:37 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 08:21:37 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 08:21:37 :  Invalid Param: DDR3_CL ==> 6
+MIG: 08:21:37 :  Invalid Param: DDR3_CWL ==> 5
+MIG: 08:21:37 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 08:21:37 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 08:21:37 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 08:21:37 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 08:21:37 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 10000
+MIG: 08:21:37 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 08:21:37 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 08:21:37 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 08:21:37 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 08:21:37 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 08:21:37 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 08:21:37 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 08:21:37 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 08:21:37 :  Invalid Param: DDR3_MMCM_MULT_F ==> 8
+MIG: 08:21:37 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 08:21:37 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 08:21:37 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 08:21:37 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 08:21:37 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 08:21:37 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 08:21:37 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 08:21:37 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 08:21:37 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 08:21:37 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 08:21:37 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 08:21:37 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 08:21:37 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 08:21:37 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 08:21:37 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 08:21:37 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b0000
+MIG: 08:21:37 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 08:21:37 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b0000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 08:21:37 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FD_2FF_2FF
+MIG: 08:21:37 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFFA_FF3_CC0_000
+MIG: 08:21:37 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_12
+MIG: 08:21:37 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11A_117_12A_11B_13A_125_120_12B_126_131_129_116_124_121_128
+MIG: 08:21:37 :  Invalid Param: DDR3_BANK_MAP ==> 36'h136_137_13B
+MIG: 08:21:37 :  Invalid Param: DDR3_CAS_MAP ==> 12'h135
+MIG: 08:21:37 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 08:21:37 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_127
+MIG: 08:21:37 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_138
+MIG: 08:21:37 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_133
+MIG: 08:21:37 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 08:21:37 :  Invalid Param: DDR3_RAS_MAP ==> 12'h139
+MIG: 08:21:37 :  Invalid Param: DDR3_WE_MAP ==> 12'h134
+MIG: 08:21:37 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_03_02_01_00
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h009_006_002_004_003_007_000_005
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h017_014_010_015_013_011_016_019
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h024_026_023_027_022_025_020_029
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h034_037_031_035_033_036_032_039
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_000_000_000_000_038_028_012_001
+MIG: 08:21:37 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 08:21:37 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 08:21:37 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 08:21:37 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 08:21:37 :  Invalid Param: DDR3_BANK_TYPE ==> "HR_IO"
+MIG: 08:21:37 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 08:21:37 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 08:21:37 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 08:21:37 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 08:21:37 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 08:21:37 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 08:21:37 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 08:21:37 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 08:21:37 :  Invalid Param: DDR3_IDELAY_ADJ ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_FINE_PER_BIT ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "OFF"
+MIG: 08:21:37 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 08:21:37 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 08:21:37 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 08:21:37 :  Invalid Param: DDR3_REFCLK_TYPE ==> "NO_BUFFER"
+MIG: 08:21:37 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 08:21:37 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 1
+MIG: 08:21:37 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 08:21:37 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 08:21:37 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 08:21:37 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 08:21:37 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "FALSE"
+MIG: 08:21:37 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 08:21:37 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 08:21:37 :  Invalid Param: DDR3_tCK ==> 2500
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 08:21:37 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: UI_EXTRA_CLOCKS ==> FALSE
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: C_S_AXI_ID_WIDTH ==> 4
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: C_S_AXI_MEM_SIZE ==> 1073741824
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 30
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 32
+MIG: 08:21:37 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 08:21:37 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 08:21:37 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 08:21:37 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 08:21:37 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 08:21:37 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 08:21:37 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 08:21:37 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 08:21:37 : 
+MIG: 08:21:37 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 08:21:37 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 08:21:37 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 08:21:37 : 
+MIG: 08:21:37 : 
+MIG: 08:21:37 : 
+MIG: 08:21:37 : Same Interface
+MIG: 08:25:49 : xml_input_file: mig_b.prj
+MIG: 08:25:49 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 08:25:49 : In updateAllModelParams
+MIG: 08:25:49 : XGUI hdlLanguage: Verilog
+MIG: 08:25:49 : xgui vivado_mode: xpg_bd
+MIG: 08:25:49 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 08:25:49 : Reading /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 08:25:50 : 
+MIG: 08:25:50 : Inside fn mem: DDR3
+MIG: 08:25:50 : QDRII+ Inside fn ui: 100000000
+MIG: 08:25:50 : cntrl:  memtype: DDR3
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 08:25:50 : 
+MIG: 08:25:50 : 
+MIG: 08:25:50 : 
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  polarity_value: 1
+MIG: 08:25:50 : 
+MIG: 08:25:50 : 
+MIG: 08:25:50 : cntrl:  memtype: DDR3
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 08:25:50 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 08:25:50 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 5
+MIG: 08:25:50 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_DM_WIDTH ==> 4
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_DQ_WIDTH ==> 32
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_DQS_WIDTH ==> 4
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 2
+MIG: 08:25:50 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: ECC ==> OFF
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_DATA_WIDTH ==> 32
+MIG: 08:25:50 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 08:25:50 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 08:25:50 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 08:25:50 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_ROW_WIDTH ==> 15
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_ADDR_WIDTH ==> 29
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 08:25:50 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 08:25:50 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 08:25:50 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 08:25:50 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 08:25:50 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 16
+MIG: 08:25:50 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 08:25:50 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 08:25:50 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 08:25:50 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 08:25:50 :  Invalid Param: DDR3_CL ==> 6
+MIG: 08:25:50 :  Invalid Param: DDR3_CWL ==> 5
+MIG: 08:25:50 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 08:25:50 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 08:25:50 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 08:25:50 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 08:25:50 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 10000
+MIG: 08:25:50 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 08:25:50 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 08:25:50 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 08:25:50 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 08:25:50 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 08:25:50 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 08:25:50 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 08:25:50 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 08:25:50 :  Invalid Param: DDR3_MMCM_MULT_F ==> 8
+MIG: 08:25:50 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 08:25:50 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 08:25:50 :  Invalid Param: DDR3_tFAW ==> 40000
+MIG: 08:25:50 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 08:25:50 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 08:25:50 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 08:25:50 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 08:25:50 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 08:25:50 :  Invalid Param: DDR3_tRRD ==> 7500
+MIG: 08:25:50 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 08:25:50 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 08:25:50 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 08:25:50 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 08:25:50 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 08:25:50 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 08:25:50 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b0000
+MIG: 08:25:50 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 08:25:50 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b0000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 08:25:50 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FD_2FF_2FF
+MIG: 08:25:50 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFFA_FF3_CC0_000
+MIG: 08:25:50 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_12
+MIG: 08:25:50 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h000_11A_117_12A_11B_13A_125_120_12B_126_131_129_116_124_121_128
+MIG: 08:25:50 :  Invalid Param: DDR3_BANK_MAP ==> 36'h136_137_13B
+MIG: 08:25:50 :  Invalid Param: DDR3_CAS_MAP ==> 12'h135
+MIG: 08:25:50 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 08:25:50 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_127
+MIG: 08:25:50 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_138
+MIG: 08:25:50 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_133
+MIG: 08:25:50 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 08:25:50 :  Invalid Param: DDR3_RAS_MAP ==> 12'h139
+MIG: 08:25:50 :  Invalid Param: DDR3_WE_MAP ==> 12'h134
+MIG: 08:25:50 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_03_02_01_00
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h009_006_002_004_003_007_000_005
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h017_014_010_015_013_011_016_019
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h024_026_023_027_022_025_020_029
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h034_037_031_035_033_036_032_039
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_000_000_000_000_038_028_012_001
+MIG: 08:25:50 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 08:25:50 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 08:25:50 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 08:25:50 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 08:25:50 :  Invalid Param: DDR3_BANK_TYPE ==> "HR_IO"
+MIG: 08:25:50 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 08:25:50 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 08:25:50 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 08:25:50 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 08:25:50 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 08:25:50 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 08:25:50 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 08:25:50 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 08:25:50 :  Invalid Param: DDR3_IDELAY_ADJ ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_FINE_PER_BIT ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "OFF"
+MIG: 08:25:50 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 08:25:50 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 08:25:50 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 08:25:50 :  Invalid Param: DDR3_REFCLK_TYPE ==> "NO_BUFFER"
+MIG: 08:25:50 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 08:25:50 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 1
+MIG: 08:25:50 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 08:25:50 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 08:25:50 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 08:25:50 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 08:25:50 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "FALSE"
+MIG: 08:25:50 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 08:25:50 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 08:25:50 :  Invalid Param: DDR3_tCK ==> 2500
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 08:25:50 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: UI_EXTRA_CLOCKS ==> FALSE
+MIG: 08:25:50 : 1
+MIG: 08:25:50 :  Valid Param: C_S_AXI_ID_WIDTH ==> 1
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: C_S_AXI_MEM_SIZE ==> 1073741824
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 30
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 32
+MIG: 08:25:50 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 08:25:50 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 08:25:50 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 08:25:50 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 08:25:50 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 08:25:50 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 08:25:50 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 08:25:50 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 08:25:50 : 
+MIG: 08:25:50 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 08:25:50 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 08:25:50 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 08:25:50 : 
+MIG: 08:25:50 : 
+MIG: 08:25:50 : 
+MIG: 08:25:50 : Same Interface
+MIG: 08:25:50 : xml_input_file: mig_b.prj
+MIG: 08:25:50 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 08:26:26 : Running synthesis.xit
+MIG: 08:26:26 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:26:26 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 08:26:26 : ERR:             <C0_S_AXI_ID_WIDTH>1</C0_S_AXI_ID_WIDTH> <==>             <C0_S_AXI_ID_WIDTH>4</C0_S_AXI_ID_WIDTH> 
+MIG: 08:26:26 : ################# RUNNING MIG BATCH ###################
+MIG: 08:26:26 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1
+MIG: 08:26:26 : synp_flow:  -- synthesis_mode: Other
+MIG: 08:26:26 : outputDirectory: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/_tmp/
+MIG: 08:26:26 : vivado_mode: xpg_bd
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 1
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 : isPortInterface: 0
+MIG: 08:26:26 :  locked false  
+MIG: 08:26:26 : HDL Language: Verilog
+MIG: 08:26:26 : compInfo: false
+MIG: 08:26:26 : Vivado Options xc7a200t ffg1156 -1
+MIG: 08:26:26 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 08:26:26 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 08:26:26 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 08:26:26 : I am in catch area
+MIG: 08:26:26 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.in -cg_exc_out /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.out ... 
+MIG: 08:26:40 : XML_INPUT_FILE: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 08:26:40 : Component_Name: design_1_mig_7series_0_0
+MIG: 08:26:40 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 08:26:40 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 08:26:40 : Moving design_1_mig_7series_0_0 ...
+MIG: 08:26:40 : Running vhdl_synth_rpr.xit
+MIG: 08:26:40 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:26:40 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 08:26:40 : Running simulation.xit
+MIG: 08:26:40 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:26:40 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 08:26:41 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 08:26:41 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:26:41 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 08:26:41 : Running implementation.xit
+MIG: 08:26:41 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:26:41 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 12:18:07 : xml_input_file: mig_b.prj
+MIG: 12:18:07 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 12:18:07 : xml_input_file: mig_b.prj
+MIG: 12:18:07 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 12:33:24 : xml_input_file: mig_b.prj
+MIG: 12:33:25 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 12:33:25 : xml_input_file: mig_b.prj
+MIG: 12:33:25 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 11:45:54 : xml_input_file: mig_b.prj
+MIG: 11:45:54 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 11:45:54 : xml_input_file: mig_b.prj
+MIG: 11:45:54 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 11:45:56 : Running customizer.xit
+MIG: 11:45:56 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 11:45:56 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/.Xil/Vivado-10113-devEng/coregen/design_1_mig_7series_0_0
+MIG: 11:45:56 : synp_flow:  -- synthesis_mode: Other
+MIG: 11:45:56 : outputDirectory: /home/engenharia/.Xil/Vivado-10113-devEng/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 11:45:56 : vivado_mode: xpg_bd
+MIG: 11:45:56 :  locked false  
+MIG: 11:45:56 : HDL Language: Verilog
+MIG: 11:45:56 : compInfo: false
+MIG: 11:45:56 : Vivado Options xc7a200t ffg1156 -1
+MIG: 11:45:56 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 11:45:56 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 11:45:56 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 11:45:56 : I am in catch area
+MIG: 11:45:56 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/.Xil/Vivado-10113-devEng/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out /home/engenharia/.Xil/Vivado-10113-devEng/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 12:01:44 : Prasad before: xmlPropertyPrj -- mig_b.prj
+MIG: 12:01:44 : Prasad After: xmlPropertyPrj -- mig_a.prj
+MIG: 12:01:44 : XML_INPUT_FILE: /home/engenharia/.Xil/Vivado-10113-devEng/coregen/design_1_mig_7series_0_0/mig_a.prj
+MIG: 12:01:44 : Component_Name: design_1_mig_7series_0_0
+MIG: 12:01:44 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 12:01:44 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 12:01:44 : Moving design_1_mig_7series_0_0 ...
+MIG: 12:01:44 : Sending back 0
+MIG: 12:01:47 : xml_input_file: mig_a.prj
+MIG: 12:01:47 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 12:01:47 : xml_input_file: mig_a.prj
+MIG: 12:01:47 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 12:01:47 : In updateAllModelParams
+MIG: 12:01:47 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 12:01:47 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 12:01:47 : XGUI hdlLanguage: Verilog
+MIG: 12:01:47 : xgui vivado_mode: xpg_bd
+MIG: 12:01:47 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 12:01:47 : Reading /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 12:01:48 : 
+MIG: 12:01:48 : Inside fn mem: DDR3
+MIG: 12:01:48 : QDRII+ Inside fn ui: 100000000
+MIG: 12:01:48 : cntrl:  memtype: DDR3
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 12:01:48 : 
+MIG: 12:01:48 : 
+MIG: 12:01:48 : 
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  polarity_value: 1
+MIG: 12:01:48 : 
+MIG: 12:01:48 : 
+MIG: 12:01:48 : cntrl:  memtype: DDR3
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 12:01:48 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 12:01:48 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 5
+MIG: 12:01:48 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_DM_WIDTH ==> 4
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_DQ_WIDTH ==> 32
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_DQS_WIDTH ==> 4
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 2
+MIG: 12:01:48 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: ECC ==> OFF
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_DATA_WIDTH ==> 32
+MIG: 12:01:48 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 12:01:48 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 12:01:48 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 12:01:48 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 12:01:48 : 16
+MIG: 12:01:48 :  Valid Param: DDR3_ROW_WIDTH ==> 16
+MIG: 12:01:48 : 30
+MIG: 12:01:48 :  Valid Param: DDR3_ADDR_WIDTH ==> 30
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 12:01:48 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 12:01:48 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 12:01:48 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 12:01:48 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 12:01:48 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 8
+MIG: 12:01:48 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 12:01:48 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 12:01:48 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 12:01:48 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 12:01:48 :  Invalid Param: DDR3_CL ==> 6
+MIG: 12:01:48 :  Invalid Param: DDR3_CWL ==> 5
+MIG: 12:01:48 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 12:01:48 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 12:01:48 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 12:01:48 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 12:01:48 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 10000
+MIG: 12:01:48 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 12:01:48 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 12:01:48 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 12:01:48 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 12:01:48 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 12:01:48 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 12:01:48 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 12:01:48 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 12:01:48 :  Invalid Param: DDR3_MMCM_MULT_F ==> 8
+MIG: 12:01:48 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 12:01:48 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 12:01:48 :  Invalid Param: DDR3_tFAW ==> 30000
+MIG: 12:01:48 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 12:01:48 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 12:01:48 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 12:01:48 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 12:01:48 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 12:01:48 :  Invalid Param: DDR3_tRRD ==> 6000
+MIG: 12:01:48 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 12:01:48 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 12:01:48 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 12:01:48 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 12:01:48 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 12:01:48 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 12:01:48 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b0000
+MIG: 12:01:48 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 12:01:48 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b0000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 12:01:48 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FD_2FF_2FF
+MIG: 12:01:48 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFFE_FF3_CC0_000
+MIG: 12:01:48 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_12
+MIG: 12:01:48 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h132_11A_117_12A_11B_13A_125_120_12B_126_131_129_116_124_121_128
+MIG: 12:01:48 :  Invalid Param: DDR3_BANK_MAP ==> 36'h136_137_13B
+MIG: 12:01:48 :  Invalid Param: DDR3_CAS_MAP ==> 12'h135
+MIG: 12:01:48 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 12:01:48 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_127
+MIG: 12:01:48 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_138
+MIG: 12:01:48 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_133
+MIG: 12:01:48 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 12:01:48 :  Invalid Param: DDR3_RAS_MAP ==> 12'h139
+MIG: 12:01:48 :  Invalid Param: DDR3_WE_MAP ==> 12'h134
+MIG: 12:01:48 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_03_02_01_00
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h009_006_002_004_003_007_000_005
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h017_014_010_015_013_011_016_019
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h024_026_023_027_022_025_020_029
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h034_037_031_035_033_036_032_039
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_000_000_000_000_038_028_012_001
+MIG: 12:01:48 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 12:01:48 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 12:01:48 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 12:01:48 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 12:01:48 :  Invalid Param: DDR3_BANK_TYPE ==> "HR_IO"
+MIG: 12:01:48 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 12:01:48 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 12:01:48 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 12:01:48 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 12:01:48 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 12:01:48 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 12:01:48 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 12:01:48 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 12:01:48 :  Invalid Param: DDR3_IDELAY_ADJ ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_FINE_PER_BIT ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "OFF"
+MIG: 12:01:48 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 12:01:48 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 12:01:48 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 12:01:48 :  Invalid Param: DDR3_REFCLK_TYPE ==> "NO_BUFFER"
+MIG: 12:01:48 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 12:01:48 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 1
+MIG: 12:01:48 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 12:01:48 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 12:01:48 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 12:01:48 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 12:01:48 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "FALSE"
+MIG: 12:01:48 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 12:01:48 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 12:01:48 :  Invalid Param: DDR3_tCK ==> 2500
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 12:01:48 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: UI_EXTRA_CLOCKS ==> FALSE
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: C_S_AXI_ID_WIDTH ==> 1
+MIG: 12:01:48 : 2147483648
+MIG: 12:01:48 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 12:01:48 : 31
+MIG: 12:01:48 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 32
+MIG: 12:01:48 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 12:01:48 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 12:01:48 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 12:01:48 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 12:01:48 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 12:01:48 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 12:01:48 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 12:01:48 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 12:01:48 : 
+MIG: 12:01:48 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 12:01:48 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 12:01:48 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 12:01:48 : 
+MIG: 12:01:48 : 
+MIG: 12:01:48 : 
+MIG: 12:01:48 : Same Interface
+MIG: 12:03:42 : Running synthesis.xit
+MIG: 12:03:42 : ################# RUNNING MIG BATCH ###################
+MIG: 12:03:42 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1
+MIG: 12:03:42 : synp_flow:  -- synthesis_mode: Other
+MIG: 12:03:42 : outputDirectory: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/_tmp/
+MIG: 12:03:42 : vivado_mode: xpg_bd
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 1
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 : isPortInterface: 0
+MIG: 12:03:42 :  locked false  
+MIG: 12:03:42 : HDL Language: Verilog
+MIG: 12:03:42 : compInfo: false
+MIG: 12:03:42 : Vivado Options xc7a200t ffg1156 -1
+MIG: 12:03:42 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 12:03:42 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 12:03:42 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 12:03:42 : I am in catch area
+MIG: 12:03:42 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.in -cg_exc_out /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.out ... 
+MIG: 12:03:55 : XML_INPUT_FILE: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 12:03:55 : Component_Name: design_1_mig_7series_0_0
+MIG: 12:03:55 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 12:03:55 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 12:03:55 : Moving design_1_mig_7series_0_0 ...
+MIG: 12:03:55 : Running vhdl_synth_rpr.xit
+MIG: 12:03:55 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 12:03:55 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 12:03:55 : Running simulation.xit
+MIG: 12:03:55 : ################# RUNNING MIG BATCH ###################
+MIG: 12:03:55 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1
+MIG: 12:03:55 : synp_flow:  -- synthesis_mode: Other
+MIG: 12:03:55 : outputDirectory: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/_tmp/
+MIG: 12:03:55 : vivado_mode: xpg_bd
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 1
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 : isPortInterface: 0
+MIG: 12:03:55 :  locked false  
+MIG: 12:03:55 : HDL Language: Verilog
+MIG: 12:03:55 : compInfo: false
+MIG: 12:03:55 : Vivado Options xc7a200t ffg1156 -1
+MIG: 12:03:55 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 12:03:55 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 12:03:55 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 12:03:55 : I am in catch area
+MIG: 12:03:55 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.in -cg_exc_out /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.out ... 
+MIG: 12:04:09 : XML_INPUT_FILE: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 12:04:09 : Component_Name: design_1_mig_7series_0_0
+MIG: 12:04:09 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 12:04:09 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 12:04:09 : Moving design_1_mig_7series_0_0 ...
+MIG: 12:04:09 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 12:04:09 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 12:04:09 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 12:04:10 : Running implementation.xit
+MIG: 12:04:10 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 12:04:10 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 10:11:17 : xml_input_file: mig_a.prj
+MIG: 10:11:17 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 10:11:17 : xml_input_file: mig_a.prj
+MIG: 10:11:17 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 10:11:19 : Running customizer.xit
+MIG: 10:11:19 : ################# RUNNING MIG INTERACTIVE ###################
+MIG: 10:11:19 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/.Xil/Vivado-2671-devEng/coregen/design_1_mig_7series_0_0
+MIG: 10:11:19 : synp_flow:  -- synthesis_mode: Other
+MIG: 10:11:19 : outputDirectory: /home/engenharia/.Xil/Vivado-2671-devEng/coregen/design_1_mig_7series_0_0/_tmp/
+MIG: 10:11:19 : vivado_mode: xpg_bd
+MIG: 10:11:19 :  locked false  
+MIG: 10:11:19 : HDL Language: Verilog
+MIG: 10:11:19 : compInfo: false
+MIG: 10:11:19 : Vivado Options xc7a200t ffg1156 -1
+MIG: 10:11:19 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 10:11:19 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 10:11:19 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 10:11:19 : I am in catch area
+MIG: 10:11:19 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/.Xil/Vivado-2671-devEng/coregen/design_1_mig_7series_0_0/xil_txt.in -cg_exc_out /home/engenharia/.Xil/Vivado-2671-devEng/coregen/design_1_mig_7series_0_0/xil_txt.out ... 
+MIG: 11:10:57 : Prasad before: xmlPropertyPrj -- mig_a.prj
+MIG: 11:10:57 : Prasad After: xmlPropertyPrj -- mig_b.prj
+MIG: 11:10:57 : XML_INPUT_FILE: /home/engenharia/.Xil/Vivado-2671-devEng/coregen/design_1_mig_7series_0_0/mig_b.prj
+MIG: 11:10:57 : Component_Name: design_1_mig_7series_0_0
+MIG: 11:10:57 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 11:10:57 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 11:10:57 : Moving design_1_mig_7series_0_0 ...
+MIG: 11:10:58 : Sending back 0
+MIG: 11:11:05 : xml_input_file: mig_b.prj
+MIG: 11:11:05 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 11:11:05 : xml_input_file: mig_b.prj
+MIG: 11:11:05 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_b.prj
+MIG: 11:11:05 : In updateAllModelParams
+MIG: 11:11:05 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 11:11:05 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 11:11:05 : XGUI hdlLanguage: Verilog
+MIG: 11:11:05 : xgui vivado_mode: xpg_bd
+MIG: 11:11:05 : xgui hdlLanguage: Verilog -- hdlExt: v
+MIG: 11:11:05 : Reading /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/design_1_mig_7series_0_0/user_design/rtl/design_1_mig_7series_0_0_mig.v ...
+MIG: 11:11:07 : 
+MIG: 11:11:07 : Inside fn mem: DDR3
+MIG: 11:11:07 : QDRII+ Inside fn ui: 100000000
+MIG: 11:11:07 : cntrl:  memtype: DDR3
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  MMCM_VCO single ctrl param_name: MMCM_VCO --  possibleMaxVcoVal: 800 
+MIG: 11:11:07 : 
+MIG: 11:11:07 : 
+MIG: 11:11:07 : 
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  polarity_value: 1
+MIG: 11:11:07 : 
+MIG: 11:11:07 : 
+MIG: 11:11:07 : cntrl:  memtype: DDR3
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_BANK_WIDTH ==> 3
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_CK_WIDTH ==> 1
+MIG: 11:11:07 :  Invalid Param: DDR3_COL_WIDTH ==> 10
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_CS_WIDTH ==> 1
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_nCS_PER_RANK ==> 1
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_CKE_WIDTH ==> 1
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA_BUF_ADDR_WIDTH ==> 5
+MIG: 11:11:07 :  Invalid Param: DDR3_DQ_CNT_WIDTH ==> 5
+MIG: 11:11:07 :  Invalid Param: DDR3_DQ_PER_DM ==> 8
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_DM_WIDTH ==> 4
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_DQ_WIDTH ==> 32
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_DQS_WIDTH ==> 4
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_DQS_CNT_WIDTH ==> 2
+MIG: 11:11:07 :  Invalid Param: DDR3_DRAM_WIDTH ==> 8
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: ECC ==> OFF
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_DATA_WIDTH ==> 32
+MIG: 11:11:07 :  Invalid Param: ECC_TEST ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_PAYLOAD_WIDTH ==> (ECC_TEST == "OFF") ? DATA_WIDTH : DQ_WIDTH
+MIG: 11:11:07 :  Invalid Param: DDR3_MEM_ADDR_ORDER ==> "BANK_ROW_COLUMN"
+MIG: 11:11:07 :  Invalid Param: DDR3_nBANK_MACHS ==> 4
+MIG: 11:11:07 :  Invalid Param: DDR3_RANKS ==> 1
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_ODT_WIDTH ==> 1
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_ROW_WIDTH ==> 16
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_ADDR_WIDTH ==> 30
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_USE_CS_PORT ==> 1
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_USE_DM_PORT ==> 1
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_USE_ODT_PORT ==> 1
+MIG: 11:11:07 :  Invalid Param: DDR3_IS_CLK_SHARED ==> "FALSE"
+MIG: 11:11:07 :  Invalid Param: DDR3_PHY_CONTROL_MASTER_BANK ==> 1
+MIG: 11:11:07 :  Invalid Param: DDR3_MEM_DENSITY ==> "4Gb"
+MIG: 11:11:07 :  Invalid Param: DDR3_MEM_SPEEDGRADE ==> "125"
+MIG: 11:11:07 :  Invalid Param: DDR3_MEM_DEVICE_WIDTH ==> 8
+MIG: 11:11:07 :  Invalid Param: DDR3_AL ==> "0"
+MIG: 11:11:07 :  Invalid Param: DDR3_nAL ==> 0
+MIG: 11:11:07 :  Invalid Param: DDR3_BURST_MODE ==> "8"
+MIG: 11:11:07 :  Invalid Param: DDR3_BURST_TYPE ==> "SEQ"
+MIG: 11:11:07 :  Invalid Param: DDR3_CL ==> 6
+MIG: 11:11:07 :  Invalid Param: DDR3_CWL ==> 5
+MIG: 11:11:07 :  Invalid Param: DDR3_OUTPUT_DRV ==> "HIGH"
+MIG: 11:11:07 :  Invalid Param: DDR3_RTT_NOM ==> "60"
+MIG: 11:11:07 :  Invalid Param: DDR3_RTT_WR ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_ADDR_CMD_MODE ==> "1T"
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_REG_CTRL ==> OFF
+MIG: 11:11:07 :  Invalid Param: DDR3_CA_MIRROR ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_VDD_OP_VOLT ==> "150"
+MIG: 11:11:07 :  Invalid Param: DDR3_CLKIN_PERIOD ==> 10000
+MIG: 11:11:07 :  Invalid Param: DDR3_CLKFBOUT_MULT ==> 8
+MIG: 11:11:07 :  Invalid Param: DDR3_DIVCLK_DIVIDE ==> 1
+MIG: 11:11:07 :  Invalid Param: DDR3_CLKOUT0_PHASE ==> 337.5
+MIG: 11:11:07 :  Invalid Param: DDR3_CLKOUT0_DIVIDE ==> 2
+MIG: 11:11:07 :  Invalid Param: DDR3_CLKOUT1_DIVIDE ==> 2
+MIG: 11:11:07 :  Invalid Param: DDR3_CLKOUT2_DIVIDE ==> 32
+MIG: 11:11:07 :  Invalid Param: DDR3_CLKOUT3_DIVIDE ==> 8
+MIG: 11:11:07 :  Invalid Param: DDR3_MMCM_VCO ==> 800
+MIG: 11:11:07 :  Invalid Param: DDR3_MMCM_MULT_F ==> 8
+MIG: 11:11:07 :  Invalid Param: DDR3_MMCM_DIVCLK_DIVIDE ==> 1
+MIG: 11:11:07 :  Invalid Param: DDR3_tCKE ==> 5000
+MIG: 11:11:07 :  Invalid Param: DDR3_tFAW ==> 30000
+MIG: 11:11:07 :  Invalid Param: DDR3_tPRDI ==> 1_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_tRAS ==> 35000
+MIG: 11:11:07 :  Invalid Param: DDR3_tRCD ==> 13750
+MIG: 11:11:07 :  Invalid Param: DDR3_tREFI ==> 7800000
+MIG: 11:11:07 :  Invalid Param: DDR3_tRFC ==> 260000
+MIG: 11:11:07 :  Invalid Param: DDR3_tRP ==> 13750
+MIG: 11:11:07 :  Invalid Param: DDR3_tRRD ==> 6000
+MIG: 11:11:07 :  Invalid Param: DDR3_tRTP ==> 7500
+MIG: 11:11:07 :  Invalid Param: DDR3_tWTR ==> 7500
+MIG: 11:11:07 :  Invalid Param: DDR3_tZQI ==> 128_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_tZQCS ==> 64
+MIG: 11:11:07 :  Invalid Param: DDR3_SIM_BYPASS_INIT_CAL ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_SIMULATION ==> "FALSE"
+MIG: 11:11:07 :  Invalid Param: DDR3_BYTE_LANES_B0 ==> 4'b1111
+MIG: 11:11:07 :  Invalid Param: DDR3_BYTE_LANES_B1 ==> 4'b1110
+MIG: 11:11:07 :  Invalid Param: DDR3_BYTE_LANES_B2 ==> 4'b0000
+MIG: 11:11:07 :  Invalid Param: DDR3_BYTE_LANES_B3 ==> 4'b0000
+MIG: 11:11:07 :  Invalid Param: DDR3_BYTE_LANES_B4 ==> 4'b0000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA_CTL_B0 ==> 4'b1111
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA_CTL_B1 ==> 4'b0000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA_CTL_B2 ==> 4'b0000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA_CTL_B3 ==> 4'b0000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA_CTL_B4 ==> 4'b0000
+MIG: 11:11:07 :  Invalid Param: DDR3_PHY_0_BITLANES ==> 48'h3FE_3FD_2FF_2FF
+MIG: 11:11:07 :  Invalid Param: DDR3_PHY_1_BITLANES ==> 48'hFFE_FF3_CC0_000
+MIG: 11:11:07 :  Invalid Param: DDR3_PHY_2_BITLANES ==> 48'h000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_CK_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_00_12
+MIG: 11:11:07 :  Invalid Param: DDR3_ADDR_MAP ==> 192'h132_11A_117_12A_11B_13A_125_120_12B_126_131_129_116_124_121_128
+MIG: 11:11:07 :  Invalid Param: DDR3_BANK_MAP ==> 36'h136_137_13B
+MIG: 11:11:07 :  Invalid Param: DDR3_CAS_MAP ==> 12'h135
+MIG: 11:11:07 :  Invalid Param: DDR3_CKE_ODT_BYTE_MAP ==> 8'h00
+MIG: 11:11:07 :  Invalid Param: DDR3_CKE_MAP ==> 96'h000_000_000_000_000_000_000_127
+MIG: 11:11:07 :  Invalid Param: DDR3_ODT_MAP ==> 96'h000_000_000_000_000_000_000_138
+MIG: 11:11:07 :  Invalid Param: DDR3_CS_MAP ==> 120'h000_000_000_000_000_000_000_000_000_133
+MIG: 11:11:07 :  Invalid Param: DDR3_PARITY_MAP ==> 12'h000
+MIG: 11:11:07 :  Invalid Param: DDR3_RAS_MAP ==> 12'h139
+MIG: 11:11:07 :  Invalid Param: DDR3_WE_MAP ==> 12'h134
+MIG: 11:11:07 :  Invalid Param: DDR3_DQS_BYTE_MAP ==> 144'h00_00_00_00_00_00_00_00_00_00_00_00_00_00_03_02_01_00
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA0_MAP ==> 96'h009_006_002_004_003_007_000_005
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA1_MAP ==> 96'h017_014_010_015_013_011_016_019
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA2_MAP ==> 96'h024_026_023_027_022_025_020_029
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA3_MAP ==> 96'h034_037_031_035_033_036_032_039
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA4_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA5_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA6_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA7_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA8_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA9_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA10_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA11_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA12_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA13_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA14_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA15_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA16_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA17_MAP ==> 96'h000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_MASK0_MAP ==> 108'h000_000_000_000_000_038_028_012_001
+MIG: 11:11:07 :  Invalid Param: DDR3_MASK1_MAP ==> 108'h000_000_000_000_000_000_000_000_000
+MIG: 11:11:07 :  Invalid Param: DDR3_SLOT_0_CONFIG ==> 8'b0000_0001
+MIG: 11:11:07 :  Invalid Param: DDR3_SLOT_1_CONFIG ==> 8'b0000_0000
+MIG: 11:11:07 :  Invalid Param: DDR3_IBUF_LPWR_MODE ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA_IO_IDLE_PWRDWN ==> "ON"
+MIG: 11:11:07 :  Invalid Param: DDR3_BANK_TYPE ==> "HR_IO"
+MIG: 11:11:07 :  Invalid Param: DDR3_DATA_IO_PRIM_TYPE ==> "HR_LP"
+MIG: 11:11:07 :  Invalid Param: DDR3_CKE_ODT_AUX ==> "FALSE"
+MIG: 11:11:07 :  Invalid Param: DDR3_USER_REFRESH ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_WRLVL ==> "ON"
+MIG: 11:11:07 :  Invalid Param: DDR3_ORDERING ==> "NORM"
+MIG: 11:11:07 :  Invalid Param: DDR3_CALIB_ROW_ADD ==> 16'h0000
+MIG: 11:11:07 :  Invalid Param: DDR3_CALIB_COL_ADD ==> 12'h000
+MIG: 11:11:07 :  Invalid Param: DDR3_CALIB_BA_ADD ==> 3'h0
+MIG: 11:11:07 :  Invalid Param: DDR3_TCQ ==> 100
+MIG: 11:11:07 :  Invalid Param: DDR3_IDELAY_ADJ ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_FINE_PER_BIT ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_CENTER_COMP_MODE ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_PI_VAL_ADJ ==> "OFF"
+MIG: 11:11:07 :  Invalid Param: DDR3_IODELAY_GRP0 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG0"
+MIG: 11:11:07 :  Invalid Param: DDR3_IODELAY_GRP1 ==> "DESIGN_1_MIG_7SERIES_0_0_IODELAY_MIG1"
+MIG: 11:11:07 :  Invalid Param: DDR3_SYSCLK_TYPE ==> "NO_BUFFER"
+MIG: 11:11:07 :  Invalid Param: DDR3_REFCLK_TYPE ==> "NO_BUFFER"
+MIG: 11:11:07 :  Invalid Param: DDR3_SYS_RST_PORT ==> "FALSE"
+MIG: 11:11:07 :  Invalid Param: DDR3_FPGA_SPEED_GRADE ==> 1
+MIG: 11:11:07 :  Invalid Param: DDR3_CMD_PIPE_PLUS1 ==> "ON"
+MIG: 11:11:07 :  Invalid Param: DDR3_DRAM_TYPE ==> "DDR3"
+MIG: 11:11:07 :  Invalid Param: DDR3_CAL_WIDTH ==> "HALF"
+MIG: 11:11:07 :  Invalid Param: DDR3_STARVE_LIMIT ==> 2
+MIG: 11:11:07 :  Invalid Param: DDR3_REF_CLK_MMCM_IODELAY_CTRL ==> "FALSE"
+MIG: 11:11:07 :  Invalid Param: DDR3_REFCLK_FREQ ==> 200.0
+MIG: 11:11:07 :  Invalid Param: DDR3_DIFF_TERM_REFCLK ==> "TRUE"
+MIG: 11:11:07 :  Invalid Param: DDR3_tCK ==> 2500
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_nCK_PER_CLK ==> 4
+MIG: 11:11:07 :  Invalid Param: DDR3_DIFF_TERM_SYSCLK ==> "TRUE"
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: UI_EXTRA_CLOCKS ==> FALSE
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: C_S_AXI_ID_WIDTH ==> 1
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: C_S_AXI_MEM_SIZE ==> 2147483648
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: C_S_AXI_ADDR_WIDTH ==> 31
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: C_S_AXI_DATA_WIDTH ==> 32
+MIG: 11:11:07 :  Invalid Param: DDR3_C_MC_nCK_PER_CLK ==> 4
+MIG: 11:11:07 :  Invalid Param: C_S_AXI_SUPPORTS_NARROW_BURST ==> 0
+MIG: 11:11:07 :  Invalid Param: DDR3_C_RD_WR_ARB_ALGORITHM ==> "RD_PRI_REG"
+MIG: 11:11:07 :  Invalid Param: C_S_AXI_REG_EN0 ==> 20'h00000
+MIG: 11:11:07 :  Invalid Param: C_S_AXI_REG_EN1 ==> 20'h00000
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: C_S_AXI_CTRL_ADDR_WIDTH ==> 32
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: C_S_AXI_CTRL_DATA_WIDTH ==> 32
+MIG: 11:11:07 :  Invalid Param: C_S_AXI_BASEADDR ==> 32'h0000_0000
+MIG: 11:11:07 :  Invalid Param: C_ECC_ONOFF_RESET_VALUE ==> 1
+MIG: 11:11:07 :  Invalid Param: C_ECC_CE_COUNTER_WIDTH ==> 8
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Valid Param: DDR3_DEBUG_PORT ==> OFF
+MIG: 11:11:07 : 
+MIG: 11:11:07 :  Invalid Param: DDR3_TEMP_MON_CONTROL ==> "INTERNAL"
+MIG: 11:11:07 :  Invalid Param: DDR3_FPGA_VOLT_TYPE ==> "N"
+MIG: 11:11:07 :  Invalid Param: DDR3_RST_ACT_LOW ==> 1
+MIG: 11:11:07 : 
+MIG: 11:11:07 : 
+MIG: 11:11:07 : 
+MIG: 11:11:07 : Same Interface
+MIG: 08:43:51 : xml_input_file: mig_a.prj
+MIG: 08:43:51 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 08:43:51 : xml_input_file: mig_a.prj
+MIG: 08:43:51 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 09:06:02 : xml_input_file: mig_a.prj
+MIG: 09:06:03 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 09:06:03 : xml_input_file: mig_a.prj
+MIG: 09:06:03 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 10:48:55 : xml_input_file: mig_a.prj
+MIG: 10:48:55 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 10:48:55 : xml_input_file: mig_a.prj
+MIG: 10:48:55 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 10:53:41 : Running synthesis.xit
+MIG: 10:53:42 : ################# RUNNING MIG BATCH ###################
+MIG: 10:53:42 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1
+MIG: 10:53:42 : synp_flow:  -- synthesis_mode: Other
+MIG: 10:53:42 : outputDirectory: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/_tmp/
+MIG: 10:53:42 : vivado_mode: xpg_bd
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 1
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 : isPortInterface: 0
+MIG: 10:53:42 :  locked false  
+MIG: 10:53:42 : HDL Language: Verilog
+MIG: 10:53:42 : compInfo: false
+MIG: 10:53:42 : Vivado Options xc7a200t ffg1156 -1
+MIG: 10:53:42 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 10:53:42 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 10:53:42 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 10:53:42 : I am in catch area
+MIG: 10:53:42 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.in -cg_exc_out /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.out ... 
+MIG: 10:53:55 : XML_INPUT_FILE: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 10:53:55 : Component_Name: design_1_mig_7series_0_0
+MIG: 10:53:55 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 10:53:55 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 10:53:55 : Moving design_1_mig_7series_0_0 ...
+MIG: 10:53:55 : Running vhdl_synth_rpr.xit
+MIG: 10:53:55 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:53:55 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 10:53:55 : Running simulation.xit
+MIG: 10:53:55 : ################# RUNNING MIG BATCH ###################
+MIG: 10:53:55 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1
+MIG: 10:53:55 : synp_flow:  -- synthesis_mode: Other
+MIG: 10:53:55 : outputDirectory: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/_tmp/
+MIG: 10:53:55 : vivado_mode: xpg_bd
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 1
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 : isPortInterface: 0
+MIG: 10:53:55 :  locked false  
+MIG: 10:53:55 : HDL Language: Verilog
+MIG: 10:53:55 : compInfo: false
+MIG: 10:53:55 : Vivado Options xc7a200t ffg1156 -1
+MIG: 10:53:55 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 10:53:55 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 10:53:55 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 10:53:55 : I am in catch area
+MIG: 10:53:55 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.in -cg_exc_out /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.out ... 
+MIG: 10:54:08 : XML_INPUT_FILE: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 10:54:08 : Component_Name: design_1_mig_7series_0_0
+MIG: 10:54:08 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 10:54:08 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 10:54:08 : Moving design_1_mig_7series_0_0 ...
+MIG: 10:54:08 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 10:54:08 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:54:08 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 10:54:08 : Running implementation.xit
+MIG: 10:54:08 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 10:54:08 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 08:25:49 : xml_input_file: mig_a.prj
+MIG: 08:25:50 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 08:25:50 : xml_input_file: mig_a.prj
+MIG: 08:25:50 : Absolute path of xml_input_file: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 08:26:18 : Running synthesis.xit
+MIG: 08:26:18 : ################# RUNNING MIG BATCH ###################
+MIG: 08:26:18 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1
+MIG: 08:26:18 : synp_flow:  -- synthesis_mode: Other
+MIG: 08:26:18 : outputDirectory: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/_tmp/
+MIG: 08:26:18 : vivado_mode: xpg_bd
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:18 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 1
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 : isPortInterface: 0
+MIG: 08:26:19 :  locked false  
+MIG: 08:26:19 : HDL Language: Verilog
+MIG: 08:26:19 : compInfo: false
+MIG: 08:26:19 : Vivado Options xc7a200t ffg1156 -1
+MIG: 08:26:19 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 08:26:19 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 08:26:19 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 08:26:19 : I am in catch area
+MIG: 08:26:19 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.in -cg_exc_out /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.out ... 
+MIG: 08:26:43 : XML_INPUT_FILE: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 08:26:43 : Component_Name: design_1_mig_7series_0_0
+MIG: 08:26:43 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 08:26:43 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 08:26:43 : Moving design_1_mig_7series_0_0 ...
+MIG: 08:26:44 : Running vhdl_synth_rpr.xit
+MIG: 08:26:44 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:26:44 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 08:26:45 : Running simulation.xit
+MIG: 08:26:45 : ################# RUNNING MIG BATCH ###################
+MIG: 08:26:45 : Writing IN file for 'design_1_mig_7series_0_0'...compDirPath: /opt/Xilinx/Vivado/2016.2/data/ip/xilinx/mig_7series_v4_0... instDirPath: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1
+MIG: 08:26:45 : synp_flow:  -- synthesis_mode: Other
+MIG: 08:26:45 : outputDirectory: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/_tmp/
+MIG: 08:26:45 : vivado_mode: xpg_bd
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 1
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 : isPortInterface: 0
+MIG: 08:26:45 :  locked false  
+MIG: 08:26:45 : HDL Language: Verilog
+MIG: 08:26:45 : compInfo: false
+MIG: 08:26:45 : Vivado Options xc7a200t ffg1156 -1
+MIG: 08:26:45 : 1: xc7a200t 2: ffg1156 3: -1
+MIG: 08:26:45 : relative mig path: coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig
+MIG: 08:26:45 : xilinx_path: /opt/Xilinx/Vivado/2016.2/ids_lite/ISE
+MIG: 08:26:45 : I am in catch area
+MIG: 08:26:45 : Running /opt/Xilinx/Vivado/2016.2/ids_lite/ISE/coregen/ip/xilinx/other/com/xilinx/ip/mig_7series_v4_0/bin/lin64/mig -cg_exc_inp /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.in -cg_exc_out /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/xil_txt.out ... 
+MIG: 08:27:00 : XML_INPUT_FILE: /home/engenharia/Tony/mem5000/project_1/project_1.srcs/sources_1/bd/design_1/ip/design_1_mig_7series_0_0_1/mig_a.prj
+MIG: 08:27:00 : Component_Name: design_1_mig_7series_0_0
+MIG: 08:27:00 : Moving design_1_mig_7series_0_0.veo ...
+MIG: 08:27:00 : Moving design_1_mig_7series_0_0_xmdf.tcl ...
+MIG: 08:27:00 : Moving design_1_mig_7series_0_0 ...
+MIG: 08:27:00 : Running vlog_sim_rpr.xit .. PRASAD DBG1
+MIG: 08:27:01 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:27:01 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 
+MIG: 08:27:01 : Running implementation.xit
+MIG: 08:27:01 : IGN:     <ModuleName>design_1_mig_7series_0_0</ModuleName> <==>     <ModuleName>design_1_mig_7series_0_0</ModuleName> 
+MIG: 08:27:01 : IGN:         <InputClkFreq>100</InputClkFreq> <==>         <InputClkFreq>100</InputClkFreq> 

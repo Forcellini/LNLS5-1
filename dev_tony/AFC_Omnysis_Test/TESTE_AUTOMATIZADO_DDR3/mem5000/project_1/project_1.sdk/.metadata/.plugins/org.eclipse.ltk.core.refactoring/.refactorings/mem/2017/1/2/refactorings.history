@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;mem/src/interr.c&apos; to &apos;interr.h&apos;" description="Rename resource &apos;interr.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/interr.c" name="interr.h" stamp="1484044626329" updateReferences="true"/>
+</session>

@@ -1,0 +1,28 @@
+TESTE DA PLACA: RFFE
+
+Operador: Fernando
+Numero de Serie: 11111111
+RFFE Software Version: V2_0002
+RFFE - IP: 10.0.18.9
+RFFE - Communication: OK
+Start Time: 22-02-2017 13:31:51
+End Time: 22-02-2017 13:31:51
+Duracao do Teste: 0.2858 min
+
+Set-up Info:
+Network Analyzer Model: E5062A
+Network Analyzer - IP: 10.0.18.20
+Network Analyzer - Communication: OK
+Waveform Generator Model: 33500B
+Waveform Generator - IP: 10.0.18.13
+Waveform Generator - Communication: OK
+RF Switch Model: RC-2SP4T-A18
+RF Switch1 - IP: 10.0.18.8
+RF Switch1 - Communication: OK
+RF Switch2 - IP: 10.0.18.10
+RF Switch2 - Communication: OK
+DC Power Supply Model: 6626A
+
+RESULTS:
+
+S-Paramenters Test - Test not Performed

@@ -1,0 +1,105 @@
+TESTE DA PLACA: RFFE
+
+Operador: Fernando
+Numero de Serie: 11111111
+RFFE Software Version: V2_0002
+RFFE - IP: 10.0.18.9
+RFFE - Communication: OK
+Start Time: 21-02-2017 19:54:08
+End Time: 21-02-2017 19:54:08
+Duracao do Teste: 0.285 min
+
+Set-up Info:
+Network Analyzer Model: E5062A
+Network Analyzer - IP: 10.0.18.20
+Network Analyzer - Communication: OK
+Waveform Generator Model: 33500B
+Waveform Generator - IP: 10.0.18.13
+Waveform Generator - Communication: OK
+RF Switch Model: RC-2SP4T-A18
+RF Switch1 - IP: 10.0.18.8
+RF Switch1 - Communication: OK
+RF Switch2 - IP: 10.0.18.10
+RF Switch2 - Communication: OK
+DC Power Supply Model: 6626A
+
+RESULTS:
+
+############################################
+S-Parameters Test
+S-Parameters Test FINAL RESULT: TEST NOT PERFORMED
+############################################
+
+############################################
+Attenuators Sweep Test
+Attenuator Sweep Test FINAL RESULT: TEST NOT PERFORMED
+############################################
+
+############################################
+RF Switches Test
+RF Switches Test FINAL RESULT: TEST NOT PERFORMED
+############################################
+
+############################################
+Frequency Response Test
+Frequency Response Test FINAL RESULT: TEST NOT PERFORMED
+############################################
+
+############################################
+Return Loss Test
+Return Loss Test S11 FINAL RESULT: TEST NOT PERFORMED
+Return Loss Test S22 FINAL RESULT: TEST NOT PERFORMED
+############################################
+
+############################################
+Power Sweep (Linearity) Test
+Linearity Test FINAL RESULT: TEST NOT PERFORMED
+############################################
+
+############################################
+Crosstalk Test Test
+Test configuration:
+Network Analyzer - Center Frequency [Hz]: 475000000.0
+Network Analyzer - Span Frequency [Hz]: 90000000.0
+Network Analyzer - Start Bandwidth [Hz]: 465000000.0
+Network Analyzer - Stop Bandwidth [Hz]: 483000000.0
+Network Analyzer - Step Bandwidth [Hz]: 56250.0
+Network Analyzer - Power Level [dB]: -25.0
+Waveform Generator - DC Offset [V]: 3.0
+RFFE Attenuation [dB]: 30.0
+RF Switch 1 Position: 3-3
+Type of data acquired: S21
+
+Tolerance:
+Lower Boundary Tolerance [Reference Value] (abs) [dB]: 34.0
+
+Result Info:
+
+Channel 1-2
+Maximum Value [dB]: 32.03
+Frequency at Maximum Value [Hz]: 476012500.0
+Crosstalk Channel 1-2: FAILED
+
+Channel 2-1
+Maximum Value [dB]: 31.91
+Frequency at Maximum Value [Hz]: 476350000.0
+Crosstalk Channel 2-1: FAILED
+
+Channel 3-4
+Maximum Value [dB]: 31.82
+Frequency at Maximum Value [Hz]: 476631250.0
+Crosstalk Channel 3-4: FAILED
+
+Channel 4-3
+Maximum Value [dB]: 32.0
+Frequency at Maximum Value [Hz]: 475337500.0
+Crosstalk Channel 4-3: FAILED
+
+Crosstalk Test FINAL RESULT: FAIL
+############################################
+
+############################################
+Temperature Measurement Test
+Temperature Measurement Test FINAL RESULT: TEST NOT PERFORMED
+############################################
+

@@ -1,0 +1,73 @@
+Teste da Placa: ADC
+
+
+Operador: Fernando
+Número de Série: 1111111
+Data/Horário do Início do Teste:2017-04-11 17:01:31
+Data/Horário do Fim do Teste: 2017-04-11 17:15:14
+Duração do Teste: 13.7047 min
+
+Gravação da FPGA:
+FGPA: Opcao nao selecionada
+
+Comunicação/Aquisicao de Dados:
+CRATE - COMUNICAÇÃO: OK
+CRATE - IP: 10.2.118.32
+Numero de PTS Coletados: 100000
+Numero de PTS Coletados [MissingCodes]: 1000000
+Numero de PTS de FFT: 99995
+SWITCH - COMUNICAÇÃO: OK
+SWITCH - IP: 10.2.118.36
+GERADOR DE SINAIS INPUT - COMUNICAÇÃO: OK
+GERADOR DE SINAIS INPUT - IP: 10.2.118.34
+GERADOR DE SINAIS INPUT - Frequencia: 500000000.0 [Hz]- Amplitude: 2.0 [dBm]
+GERADOR DE SINAIS INPUT [MissingCodes] - Frequencia: 472909580.0 [Hz]- Amplitude: 9.5 [dBm]
+GERADOR DE SINAIS CLOCK - COMUNICAÇÃO: OK
+GERADOR DE SINAIS CLOCK - IP: 10.2.118.35
+GERADOR DE SINAIS CLOCK - Frequencia: 120000000.0 [Hz]- Amplitude: 5.0 [dBm]
+GERADOR DE SINAIS CLOCK [MissingCodes] - Frequencia: 118226944.0 [Hz]- Amplitude: 5.0 [dBm]
+MATLAB - CONEXÃO: Opcao nao escolhidao
+
+Resultados:
+SNR do Canal 1: Teste não realizado 
+SNR do Canal 2: Teste não realizado 
+SNR do Canal 3: Teste não realizado 
+SNR do Canal 4: Teste não realizado 
+SFDR do Canal 1: Teste não realizado 
+SFDR do Canal 2: Teste não realizado 
+SFDR do Canal 3: Teste não realizado 
+SFDR do Canal 4: Teste não realizado 
+ENOB do Canal 1 Falhou - Valor Medido: 5.17 [bits] [Critério >= 10.0 [bits] ]
+ENOB do Canal 2 Falhou - Valor Medido: 4.61 [bits] [Critério >= 10.0 [bits] ]
+ENOB do Canal 3 Falhou - Valor Medido: 5.24 [bits] [Critério >= 10.0 [bits] ]
+ENOB do Canal 4 Falhou - Valor Medido: -2.19 [bits] [Critério >= 10.0 [bits] ]
+CROSSTALK do Canal 1-2: Teste não realizado 
+CROSSTALK do Canal 1-3: Teste não realizado 
+CROSSTALK do Canal 1-4: Teste não realizado 
+CROSSTALK do Canal 2-1: Teste não realizado 
+CROSSTALK do Canal 2-3: Teste não realizado 
+CROSSTALK do Canal 2-4: Teste não realizado 
+CROSSTALK do Canal 3-1: Teste não realizado 
+CROSSTALK do Canal 3-2: Teste não realizado 
+CROSSTALK do Canal 3-4: Teste não realizado 
+CROSSTALK do Canal 4-1: Teste não realizado 
+CROSSTALK do Canal 4-2: Teste não realizado 
+CROSSTALK do Canal 4-3: Teste não realizado 
+DIF. AMP. do Canal 1-3: Teste não realizado
+DIF. AMP. do Canal 2-4: Teste não realizado
+MISSING CODES CH1: Teste não realizado
+MISSING CODES CH2: Teste não realizado
+MISSING CODES CH3: Teste não realizado
+MISSING CODES CH4: Teste não realizado
+EEPROM - RESULTADO FINAL Teste do Componente: Teste não realizado
+EEPROM - Acesso ao metodo de ESCRITA: Teste não realizado
+EEPROM - Acesso ao metodo de LEITURA:Teste não realizado
+ICS854S01I - RESULTADO FINAL Teste do Componente: Teste não realizado
+ICS854S01I - Acesso ao metodo de ESCRITA: Teste não realizado
+ICS854S01I - Acesso ao metodo de LEITURA:Teste não realizado
+SI571 - RESULTADO FINAL Teste do Componente: Teste não realizado
+SI571 - Acesso ao metodo de ESCRITA: Teste não realizado
+SI571 - Acesso ao metodo de LEITURA:Teste não realizado
+AD9510 - RESULTADO FINAL Teste do Componente: Teste não realizado
+AD9510 - Acesso ao metodo de ESCRITA: Teste não realizado
+AD9510 - Acesso ao metodo de LEITURA:Teste não realizado

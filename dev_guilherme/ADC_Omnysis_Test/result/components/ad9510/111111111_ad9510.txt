@@ -1,0 +1,25 @@
+Teste da Placa: ADC - Teste do Componente AD9510
+
+
+Descricao dos Dados Coletados neste arquivo...
+NENHUM DADO ADQUIRIDO
+
+Número de Série: 111111111
+Data/Horário do Início do Teste:2017-04-11 17:01:31
+Data/Horário do Fim do Teste: 2017-04-11 17:15:14
+Duração do Teste: 13.7047 min
+
+Gravação da FPGA:
+FGPA: Opcao nao selecionada
+
+Comunicação/Aquisicao de Dados:
+CRATE - COMUNICAÇÃO: OK
+CRATE - IP: 10.2.118.32
+SWITCH - COMUNICAÇÃO: OK
+SWITCH - IP: 10.2.118.36
+GERADOR DE SINAIS INPUT - COMUNICAÇÃO: OK
+GERADOR DE SINAIS INPUT - IP: 10.2.118.34
+GERADOR DE SINAIS CLOCK - COMUNICAÇÃO: OK
+GERADOR DE SINAIS CLOCK - IP: 10.2.118.35
+MATLAB - CONEXÃO: Opcao nao escolhidao
+

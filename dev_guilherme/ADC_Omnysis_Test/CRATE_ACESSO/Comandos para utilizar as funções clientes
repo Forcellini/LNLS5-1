@@ -1,0 +1,8 @@
+./si571_ctl -b tcp://10.0.18.16:8978 -board 4 -halcs 1 -freq 130000000
+
+./leds -b tcp://10.0.18.16:8978 -board 4 -halcs 1
+
+./acq -b tcp://10.0.18.16:8978 -o 4 -s 1 -c 0 -n 10
+
+./fmc130m_eeprom_ctl -b tcp://10.0.18.16:8978 -board 4 -halcs 1 -rw 0 -addr 0 
+./fmc130m_eeprom_ctl -b tcp://10.0.18.16:8978 -board 4 -halcs 1 -rw 1 -addr 0 -data 1

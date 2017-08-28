@@ -1,0 +1,2 @@
+09:12:20 INFO  : Launching XSDB server: xsdb -n -interactive /home/engenharia/Tony/mem5/project_1/projecip/xilinx/mig_7series_v4_0/data/fpga_tlib/artix7/7a/xc7a200tffg1156_pkg.xml/temp_xsdb_launch_script.tcl
+09:12:29 INFO  : XSDB server has started successfully.

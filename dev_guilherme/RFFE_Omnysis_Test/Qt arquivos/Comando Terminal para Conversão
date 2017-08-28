@@ -1,0 +1,2 @@
+pyuic4 (-x) input.ui -o output.py
+pyuic4 -x interface_principal.ui -o interface_principal.py

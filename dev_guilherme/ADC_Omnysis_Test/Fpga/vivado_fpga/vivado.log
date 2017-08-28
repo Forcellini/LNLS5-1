@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jan  5 09:07:29 2017
+# Process ID: 12487
+# Current directory: /home/tadeu/workspace/AD_comunication/Fpga/vivado_fpga
+# Command line: vivado -mode tcl -source FPGA_AFC_ADC_VELHO.tcl
+# Log file: /home/tadeu/workspace/AD_comunication/Fpga/vivado_fpga/vivado.log
+# Journal file: /home/tadeu/workspace/AD_comunication/Fpga/vivado_fpga/vivado.jou
+#-----------------------------------------------------------
+source FPGA_AFC_ADC_VELHO.tcl
+# open_hw
+# connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.2
+  **** Build date : Jun  2 2016-16:54:00
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+# open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/000015de7ac201
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Xilinx/000015de7ac201.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+
+    while executing
+"open_hw_target"
+    (file "FPGA_AFC_ADC_VELHO.tcl" line 3)

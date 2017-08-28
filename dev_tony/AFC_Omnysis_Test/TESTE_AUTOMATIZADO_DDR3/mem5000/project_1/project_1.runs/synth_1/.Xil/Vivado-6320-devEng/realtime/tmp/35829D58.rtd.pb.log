@@ -1,0 +1,304 @@
+xilinx rtfpga
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/reset_gen_ic.rstblk_cc/ngwrdrst.grst.g7serrst.wr_rst_asreg_d1_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/reset_gen_ic.rstblk_cc/ngwrdrst.grst.g7serrst.wr_rst_asreg_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/reset_gen_ic.rstblk_cc/ngwrdrst.grst.g7serrst.wr_rst_asreg_d2_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/reset_gen_ic.rstblk_cc/ngwrdrst.grst.g7serrst.rd_rst_asreg_d1_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/reset_gen_ic.rstblk_cc/ngwrdrst.grst.g7serrst.rd_rst_asreg_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/reset_gen_ic.rstblk_cc/ngwrdrst.grst.g7serrst.rd_rst_asreg_d2_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_fb_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwdch2.axi_wdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_fb_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwrch2.axi_wrch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_fb_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_fb_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]) is unused and will be removed from module fifo_generator_v13_1_1.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gaxi_full_lite.gread_ch.grdch2.axi_rdch/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_fb_reg) is unused and will be removed from module fifo_generator_v13_1_1.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_mem_intercon/xbar/\inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.grant_hot_reg[1] )
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/r_pipe/aresetn_d_reg[0]' (FDR) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/aresetn_d_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/aresetn_d_reg[0]' (FDR) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/r_pipe/aresetn_d_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/r_pipe/aresetn_d_reg[0]' (FDR) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b_pipe/aresetn_d_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[3]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[0]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[1]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[1]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_mem_intercon/xbar/\inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[2] )
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[3]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[0]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[1]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[1]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_mem_intercon/xbar/\inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[2] )
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[3]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[0]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[1]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[1]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_mem_intercon/xbar/\inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[2] )
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/r_pipe/aresetn_d_reg[1]' (FDR) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/aresetn_d_reg[1]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/r_pipe/aresetn_d_reg[1]' (FDR) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/aresetn_d_reg[1]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/aresetn_d_reg[1]' (FDR) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b_pipe/aresetn_d_reg[1]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[0].gen_mi_write.wdata_mux_w/gen_wmux.wmux_aw_fifo/areset_d1_reg' (FD) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.wdata_router_w/wrouter_aw_fifo/areset_d1_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_mem_intercon/xbar/\inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_grant_enc_i_reg[0] )
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[49]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[50]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[50]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[51]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[51]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[52]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_mem_intercon/xbar/\inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[52] )
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[49]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[50]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[51]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[52]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_mem_intercon/xbar/\inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[0] )
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_target_hot_reg[1]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_target_enc_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_target_hot_reg[1]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_target_enc_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_target_hot_reg[1]' (FDRE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_target_enc_reg[0]'
+INFO: [Synth 8-3886] merging instance 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/m_payload_i_reg[0]' (FDE) to 'axi_mem_intercon/xbar/inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/m_payload_i_reg[1]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (axi_mem_intercon/xbar/\inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/m_payload_i_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_mem_intercon/xbar/\inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/m_payload_i_reg[2] )
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_decerr_slave.decerr_slave_inst/gen_axi.s_axi_bid_i_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_grant_enc_i_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.qual_reg_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.grant_hot_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.s_ready_i_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[63]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[52]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[51]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[50]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[49]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[45]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_arbiter.m_mesg_i_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[63]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[52]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[51]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[50]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[49]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_arbiter.m_mesg_i_reg[45]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/gen_rep[0].fifoaddr_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/gen_rep[0].fifoaddr_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/M_VALID_i_reg) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[3]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[2]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_single_thread.active_target_hot_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/gen_rep[0].fifoaddr_reg[3]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/gen_rep[0].fifoaddr_reg[2]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/gen_rep[0].fifoaddr_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/gen_rep[0].fifoaddr_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/M_VALID_i_reg) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[3]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[2]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_region_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.si_transactor_aw/gen_single_thread.active_target_hot_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/gen_rep[0].fifoaddr_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/gen_rep[0].fifoaddr_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.gen_debug_r_single_thread.debug_r_seq_fifo_single_thread/M_VALID_i_reg) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[3]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[2]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_region_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_slave_slots[1].gen_si_read.si_transactor_ar/gen_single_thread.active_target_hot_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].reg_slice_mi/b_pipe/m_payload_i_reg[2]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/m_payload_i_reg[2]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/m_payload_i_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/b_pipe/m_payload_i_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/r_pipe/aresetn_d_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].reg_slice_mi/r_pipe/aresetn_d_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].w_issuing_cnt_reg[15]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].w_issuing_cnt_reg[14]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].w_issuing_cnt_reg[13]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].w_issuing_cnt_reg[12]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].w_issuing_cnt_reg[11]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].w_issuing_cnt_reg[10]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].w_issuing_cnt_reg[9]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].w_issuing_cnt_reg[7]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].w_issuing_cnt_reg[6]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].w_issuing_cnt_reg[5]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].w_issuing_cnt_reg[4]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].r_issuing_cnt_reg[15]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].r_issuing_cnt_reg[14]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].r_issuing_cnt_reg[13]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].r_issuing_cnt_reg[12]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].r_issuing_cnt_reg[11]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].r_issuing_cnt_reg[10]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].r_issuing_cnt_reg[9]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].r_issuing_cnt_reg[7]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].r_issuing_cnt_reg[6]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].r_issuing_cnt_reg[5]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].r_issuing_cnt_reg[4]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].gen_mi_write.gen_debug_w.debug_w_seq_fifo/M_VALID_i_reg) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].gen_mi_write.gen_debug_w.debug_w_seq_fifo/gen_rep[0].fifoaddr_reg[2]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].gen_mi_write.gen_debug_w.debug_w_seq_fifo/gen_rep[0].fifoaddr_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[0].gen_mi_write.gen_debug_w.debug_w_seq_fifo/gen_rep[0].fifoaddr_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.gen_debug_w.debug_w_seq_fifo/M_VALID_i_reg) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.gen_debug_w.debug_w_seq_fifo/gen_rep[0].fifoaddr_reg[1]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_master_slots[1].gen_mi_write.gen_debug_w.debug_w_seq_fifo/gen_rep[0].fifoaddr_reg[0]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_debug_trans_seq.debug_aw_trans_seq_i_reg[7]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_debug_trans_seq.debug_aw_trans_seq_i_reg[6]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_debug_trans_seq.debug_aw_trans_seq_i_reg[5]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_debug_trans_seq.debug_aw_trans_seq_i_reg[4]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Synth 8-3332] Sequential element (inst/gen_samd.crossbar_samd/gen_debug_trans_seq.debug_aw_trans_seq_i_reg[3]) is unused and will be removed from module design_1_xbar_3.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_timer_0/U0/\AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (axi_timer_0/U0/\AXI4_LITE_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (mdm_1/U0/\MDM_Core_I1/Config_Reg_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Use_Debug_Logic.Master_Core.Debug_Perf /\Performace_Debug_Control.ex_watchpoint_brk_reg )
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/ex_which_branch_reg[9]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/ex_gpr_write_addr_reg[3]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/ex_which_branch_reg[10]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/ex_gpr_write_addr_reg[4]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/ex_bt_hit_hold_reg' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/mem_is_bs_instr_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /Decode_I/ex_is_mul_instr_reg)
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/ex_which_branch_reg[8]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/ex_gpr_write_addr_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /Decode_I/mem_is_bs_instr_reg)
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/mem_is_mul_instr_reg' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/mem_jump_hit_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_DCache.Using_WriteThrough.DCache_I1 /\Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.r_fifo_mem_reg[0][Exclusive] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /Data_Flow_I/\exception_registers_I1/WB_ESR_i_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Use_Debug_Logic.Master_Core.Debug_Perf /\sync_stack_violation_occurence/Single_Synchronize.use_async_reset.sync_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_ICache.ICache_I1 /\Cache_Interface_I1/Using_AXI.r_fifo_mem_reg[0][Exclusive] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_DCache.Using_WriteThrough.DCache_I1 /\Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.write_exclusive_fail_i_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_DCache.Using_WriteThrough.DCache_I1 /\Using_New_CacheInterface_for_AXI.read_exclusive_fail_1_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Use_DBUS.DAXI_Interface_I1/mem_access_failed_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /Decode_I/ex_MSR_set_decode_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Use_Debug_Logic.Master_Core.Debug_Perf /\Performace_Debug_Control.watchpoint_brk_hold_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /Decode_I/\Using_FPGA.Gen_Bits[27].MEM_EX_Result_Inst/Using_FPGA.Native )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /Decode_I/\Using_FPGA.Gen_Bits[29].MEM_EX_Result_Inst/Using_FPGA.Native )
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARBAR_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[0]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARBAR_reg[1]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[0]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[1]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[1]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[2]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[2]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_DCache.Using_WriteThrough.DCache_I1 /\Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[3] )
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[1]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[1]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[2]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[2]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[3]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[3]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[4]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[4]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[0]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARPROT_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARPROT_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_DCache.Using_WriteThrough.DCache_I1 /\Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARPROT_reg[1] )
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[1]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[1]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[2]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[2]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_DCache.Using_WriteThrough.DCache_I1 /\Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.M_AXI_ARID_I_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_DCache.Using_WriteThrough.DCache_I1 /\Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.aw_fifo_mem_reg[0][Exclusive] )
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.aw_fifo_mem_reg[0][Burst]' (FDE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_DCache.Using_WriteThrough.DCache_I1/Using_New_CacheInterface_for_AXI.Cache_Interface_I1/Using_AXI.Use_AXI_Write.aw_fifo_mem_reg[1][Exclusive]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARBAR_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[0]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARBAR_reg[1]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[0]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[1]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[1]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[2]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[2]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_ICache.ICache_I1 /\Cache_Interface_I1/Using_AXI.M_AXI_ARSNOOP_reg[3] )
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[1]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[2]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[3]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARUSER_reg[4]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARPROT_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARPROT_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_ICache.ICache_I1 /\Cache_Interface_I1/Using_AXI.M_AXI_ARPROT_reg[1] )
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[0]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[1]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[3]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[2]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Using_ICache.ICache_I1/Cache_Interface_I1/Using_AXI.M_AXI_ARCACHE_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_ICache.ICache_I1 /\Cache_Interface_I1/Using_AXI.M_AXI_ARBURST_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_ICache.ICache_I1 /\Cache_Interface_I1/Using_AXI.M_AXI_ARID_I_reg[0] )
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/wb_is_mul_instr_reg' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Decode_I/Trace_WB_Jump_Hit_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_ICache.ICache_I1 /victim_hit_hold_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Using_ICache.ICache_I1 /stream_hit_hold_reg)
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/Byte_Doublet_Handle_gti_I/wb_read_lsb_1_sel_reg[1]' (FDRE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Data_Flow_I/Byte_Doublet_Handle_gti_I/wb_read_msb_doublet_sel_reg'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Use_Debug_Logic.Master_Core.Debug_Perf/status_reg_reg[21]' (FDCE) to 'microblaze_0/U0/MicroBlaze_Core_I/Performance.Core/Use_Debug_Logic.Master_Core.Debug_Perf/status_reg_reg[26]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /Decode_I/ex_Sel_SPR_EA_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\MicroBlaze_Core_I/Performance.Core /\Use_IBUS.IAXI_Interface_I1/M_AXI_IP_ARPROT_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4095] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4094] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4093] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4092] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4091] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4090] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4089] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4088] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4087] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4086] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4085] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4084] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4083] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4082] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4081] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4080] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4079] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4078] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4077] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4076] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4075] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4074] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4073] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4072] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4071] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4070] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4069] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4068] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4067] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4066] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4065] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4064] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4063] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4062] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4061] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4060] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4059] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4058] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4057] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4056] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4055] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4054] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4053] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4052] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4051] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4050] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4049] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4048] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4047] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4046] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4045] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4044] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4043] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4042] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4041] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4040] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4039] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4038] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4037] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4036] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4035] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (microblaze_0/U0/\LOCKSTEP_Out_reg[4034] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[3228]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[0]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2844]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2766]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2838]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2837]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2181]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2160]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2177]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2176]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2176]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2175]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2175]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2174]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2174]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2173]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2173]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2164]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2164]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2162]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2162]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2161]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2154]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2153]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2045]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[1967]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[2039]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[2038]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[663]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[497]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[662]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[496]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[661]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[495]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[660]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[494]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[659]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[493]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[658]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[492]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[657]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[491]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[656]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[490]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[655]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[489]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[654]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[488]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[653]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[487]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[652]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[486]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[651]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[485]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[650]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[484]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[649]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[483]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[648]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[482]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[647]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[481]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[646]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[480]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[645]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[479]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[644]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[478]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[643]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[477]'
+INFO: [Synth 8-3886] merging instance 'microblaze_0/U0/LOCKSTEP_Out_reg[642]' (FDR) to 'microblaze_0/U0/LOCKSTEP_Out_reg[476]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.

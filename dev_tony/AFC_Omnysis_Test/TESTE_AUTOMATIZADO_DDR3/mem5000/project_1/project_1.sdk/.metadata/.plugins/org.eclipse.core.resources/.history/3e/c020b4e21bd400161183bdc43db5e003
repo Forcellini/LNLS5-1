@@ -1,0 +1,622 @@
+/******************************************************************************
+*
+* Copyright (C) 2009 - 2015 Xilinx, Inc. All rights reserved.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* Use of the Software is limited solely to applications:
+* (a) running on a Xilinx device, or
+* (b) that interact with a Xilinx device through a bus or interconnect.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+* XILINX  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+* WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+* OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*
+* Except as contained in this notice, the name of the Xilinx shall not be used
+* in advertising or otherwise to promote the sale, use or other dealings in
+* this Software without prior written authorization from Xilinx.
+*
+******************************************************************************/
+/*****************************************************************************/
+/**
+*
+* @file xil_testmem.c
+*
+* Contains the memory test utility functions.
+*
+* <pre>
+* MODIFICATION HISTORY:
+*
+* Ver    Who    Date    Changes
+* ----- ---- -------- -----------------------------------------------
+* 1.00a hbm  08/25/09 First release
+* </pre>
+*
+*****************************************************************************/
+
+/***************************** Include Files ********************************/
+#include "xil_testmem.h"
+#include "xil_io.h"
+#include "xil_assert.h"
+
+/************************** Constant Definitions ****************************/
+/************************** Function Prototypes *****************************/
+
+
+/* define ROTATE_RIGHT to give access to this functionality */
+/* #define ROTATE_RIGHT */
+
+
+
+/*****************************************************************************/
+/**
+*
+* Perform a destructive 32-bit wide memory test.
+*
+* @param    Addr is a pointer to the region of memory to be tested.
+* @param    Words is the length of the block.
+* @param    Pattern is the constant used for the constant pattern test, if 0,
+*           0xDEADBEEF is used.
+* @param    Subtest is the test selected. See xil_testmem.h for possible
+*	    values.
+*
+* @return
+*
+* - 0 is returned for a pass
+* - -1 is returned for a failure
+*
+* @note
+*
+* Used for spaces where the address range of the region is smaller than
+* the data width. If the memory range is greater than 2 ** Width,
+* the patterns used in XIL_TESTMEM_WALKONES and XIL_TESTMEM_WALKZEROS will
+* repeat on a boundry of a power of two making it more difficult to detect
+* addressing errors. The XIL_TESTMEM_INCREMENT and XIL_TESTMEM_INVERSEADDR
+* tests suffer the same problem. Ideally, if large blocks of memory are to be
+* tested, break them up into smaller regions of memory to allow the test
+* patterns used not to repeat over the region tested.
+*
+*****************************************************************************/
+s32 Xil_TestMem32(u32 *Addr, u32 Words)
+{
+	u32 I;
+	u32 j;
+	u32 Val;
+	u32 FirtVal;
+	u32 WordMem32;
+	s32 Status = 0;
+
+	Xil_AssertNonvoid(Words != (u32)0);
+	Xil_AssertNonvoid(Addr != NULL);
+
+	/*
+	 * variable initialization
+	 */
+	Val = XIL_TESTMEM_INIT_VALUE;
+	FirtVal = XIL_TESTMEM_INIT_VALUE;
+		/*
+		 * Fill the memory with incrementing
+		 * values starting from 'FirtVal'
+		 Teste manual
+	*(Addr+2147483648) = 0xCCCCCCCC;
+	WordMem32 = *(Addr);
+	xil_printf("Registered value %x\n\r",WordMem32);
+*/
+	*(Addr+680+603979776)=2323;
+	WordMem32 = *(Addr+680+603979776);
+				xil_printf(" %d\n",WordMem32);
+
+
+	Val = FirtVal;
+
+
+
+		xil_printf("     COMECOU!!!!!\n");
+		xil_printf("     VALOR DE VAL> %d\n",Val);
+		xil_printf("     VALOR DE FirtVAL> %d\n",FirtVal);
+		xil_printf("     VALOR DE *Addr> %d\n",*Addr);
+		xil_printf("     VALOR DE Addr> %d\n",Addr);
+		xil_printf("     VALOR DE &Addr> %d\n",&Addr);
+		xil_printf("     VALOR DE *Addr posicao 900 q queremos testar> %d\n",*(Addr+900+603979776));
+		xil_printf("     Calma, estou em execucao...\n");
+
+
+		//for (I = 603979776U; 671088640U; I++) {
+		for (I = 0U; 671088640U; I++) {
+
+			*(Addr+I) = Val;
+			if(*(Addr+I) != Val){
+				xil_printf("     VALOR DE *Addr> %d\n",*(Addr+I));
+				xil_printf("     VALOR DE VAL> %d\n",Val);
+			}
+			//xil_printf("     VALOR DE *Addr> %d\n",*(Addr+I));
+			//xil_printf("     VALOR DE VAL> %d\n",Val);
+			Val++;
+			//xil_printf("     VALOR DE VAL> %d\n",Val);
+
+
+		}
+		xil_printf("     PASSOU !!!!\n");
+		xil_printf("     VALOR DE I> %d\n",I);
+		xil_printf("     VALOR DE 603979776> %d\n",603979776);
+		xil_printf("     VALOR DE *Addr> %d\n",*Addr);
+		xil_printf("     VALOR DE Addr> %d\n",Addr);
+		xil_printf("     VALOR DE &Addr> %d\n",&Addr);
+		xil_printf("     VALOR DE VAL> %d\n",Val);
+		xil_printf("     VALOR DE FirtVAL> %d\n",FirtVal);
+		xil_printf("     semiCOMPLEtE\n\r");
+
+		Val = FirtVal;
+
+			WordMem32 = *(Addr+900+603979776);
+			xil_printf(" %d\n",WordMem32);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+
+			Val++;
+		}
+
+			xil_printf("     10 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+67108864 < 738197504; I++) {
+			xil_printf("     entrou 1\n\r");
+			*(Addr+I+67108864) = Val;
+			xil_printf("     entrou 2\n\r");
+			Val++;
+			xil_printf("     entrou 3\n\r");
+		}
+		Val = FirtVal;
+		for (I = 0U; I+67108864< 738197504; I++) {
+			WordMem32 = *(Addr+I+67108864);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     11 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+738197504 < 805306368; I++) {
+			*(Addr+I+738197504) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+738197504< 805306368; I++) {
+			WordMem32 = *(Addr+I+738197504);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     12 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+805306368 < 872415232; I++) {
+			*(Addr+I+805306368) = Val;
+			Val++;
+		}
+
+		Val = FirtVal;
+		for (I = 0U; I+805306368< 872415232; I++) {
+			WordMem32 = *(Addr+I+805306368);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     13 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+872415232 < 939524096; I++) {
+			*(Addr+I+872415232) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+872415232 < 939524096; I++) {
+			WordMem32 = *(Addr+I+872415232);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     14 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+939524096 < 1006632960; I++) {
+			*(Addr+I+939524096) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+939524096 < 1006632960; I++) {
+			WordMem32 = *(Addr+I+939524096);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     15 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1006632960 < 1073741824; I++) {
+			*(Addr+I+1006632960) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1006632960 < 1073741824; I++) {
+			WordMem32 = *(Addr+I+1006632960);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     16 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1073741824 < 1140850688; I++) {
+			*(Addr+I+1073741824) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1073741824 < 1140850688; I++) {
+			WordMem32 = *(Addr+I+1073741824);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     17 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1140850688 < 1207959552; I++) {
+			*(Addr+I+1140850688) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1140850688 < 1207959552; I++) {
+			WordMem32 = *(Addr+I+1140850688);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     18 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1207959552 < 1275068416; I++) {
+			*(Addr+I+1207959552) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1207959552 < 1275068416; I++) {
+			WordMem32 = *(Addr+I+1207959552);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     19 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1275068416 < 1342177280; I++) {
+			*(Addr+I+1275068416) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1275068416 < 1342177280; I++) {
+			WordMem32 = *(Addr+I+1275068416);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     20 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1342177280 < 1409286144; I++) {
+			*(Addr+I+1342177280) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1342177280 < 1409286144; I++) {
+			WordMem32 = *(Addr+I+1342177280);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     21 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1409286144 < 1476395008; I++) {
+			*(Addr+I+1409286144) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1409286144 < 1476395008; I++) {
+			WordMem32 = *(Addr+I+1409286144);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     22 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1476395008 < 1543503872; I++) {
+			*(Addr+I+1476395008) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1476395008 < 1543503872; I++) {
+			WordMem32 = *(Addr+I+1476395008);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     23 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1543503872 < 1610612736; I++) {
+			*(Addr+I+1543503872) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1543503872< 1610612736; I++) {
+			WordMem32 = *(Addr+I+1543503872);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     24 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1610612736 < 1677721600; I++) {
+			*(Addr+I+1610612736) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1610612736 < 1677721600; I++) {
+			WordMem32 = *(Addr+I+1610612736);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     25 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1677721600 < 1744830464; I++) {
+			*(Addr+I+1677721600) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1677721600 < 1744830464; I++) {
+			WordMem32 = *(Addr+I+1677721600);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     26 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1744830464 < 1811939328; I++) {
+			*(Addr+I+1744830464) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1744830464 < 1811939328; I++) {
+			WordMem32 = *(Addr+I+1744830464);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     27 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+		for (I = 0U; I+1811939328 < 1879048192; I++) {
+			*(Addr+I+1811939328) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1811939328 < 1879048192; I++) {
+			WordMem32 = *(Addr+I+1811939328);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     28 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1879048192 < 1946157056; I++) {
+			*(Addr+I+1879048192) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1879048192 < 1946157056; I++) {
+			WordMem32 = *(Addr+I+1879048192);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     29 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+1946157056 < 2013265920; I++) {
+			*(Addr+I+1946157056) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+1946157056 < 2013265920; I++) {
+			WordMem32 = *(Addr+I+1946157056);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     30 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+2013265920 < 2080374784; I++) {
+			*(Addr+I+2013265920) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+2013265920 < 2080374784; I++) {
+			WordMem32 = *(Addr+I+2013265920);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     31 of 32 COMPLEtE\n\r");
+
+			Val = FirtVal;
+
+
+		for (I = 0U; I+2080374784 < 2147483648; I++) {
+			*(Addr+I+2080374784) = Val;
+			Val++;
+		}
+		Val = FirtVal;
+		for (I = 0U; I+2080374784 < 2147483648; I++) {
+			WordMem32 = *(Addr+I+2080374784);
+
+			if (WordMem32 != Val) {
+				Status = -1;
+				goto End_Label;
+			}
+			Val++;
+		}
+
+			xil_printf("     32 of 32 COMPLEtE\n\r");
+
+
+
+End_Label:
+	return Status;
+}

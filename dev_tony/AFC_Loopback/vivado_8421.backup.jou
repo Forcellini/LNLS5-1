@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon May 15 15:42:06 2017
+# Process ID: 8421
+# Current directory: /home/tadeu/workspace/AFC_Loopback
+# Command line: vivado -source /home/tadeu/workspace/AFC_Loopback/RTM_IO.tcl
+# Log file: /home/tadeu/workspace/AFC_Loopback/vivado.log
+# Journal file: /home/tadeu/workspace/AFC_Loopback/vivado.jou
+#-----------------------------------------------------------
+start_gui
+source /home/tadeu/workspace/AFC_Loopback/RTM_IO.tcl

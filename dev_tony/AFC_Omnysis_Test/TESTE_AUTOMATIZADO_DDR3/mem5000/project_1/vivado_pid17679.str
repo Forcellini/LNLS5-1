@@ -1,0 +1,175 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 17679
+
+Current time: 	11/17/16 11:01:55 AM BRST
+Time zone: 	Brasilia Time (America/Sao_Paulo)
+
+OS: NAME="Ubuntu"
+Version: 4.2.0-42-generic
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	root
+User home directory: /root
+User working directory: /home/engenharia/Tony/mem5/project_1
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /home/engenharia/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /home/engenharia/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	181 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,838 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 32 MB (+30573kb) [00:00:11]
+// [Engine Memory]: 4,836 MB (+4919331kb) [00:00:11]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# Current time: 11/17/16 11:01:55 AM BRST
+# Process ID: 17679
+# Platform: Unix
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: ERROR: [Project 1-561] The specified project file does not exist: 'ṕroject_1.xpr'
+ (See /home/engenharia/Tony/mem5/project_1/vivado_pid17679.debug)
+*/
+// HOptionPane Error: "ERROR: [Project 1-561] The specified project file does not exist: 'ṕroject_1.xpr'  (Vivado v2016.2 (64-bit))"
+// [GUI Memory]: 46 MB (+13884kb) [00:00:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,851 MB. GUI used memory: 23 MB. Current time: 11/17/16 11:01:59 AM BRST
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // l:JideButton (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/engenharia/Tony/mem5/project_1/project_1.xpr");
+// Opening Vivado Project: /home/engenharia/Tony/mem5/project_1/project_1.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/engenharia/Tony/mem5/project_1/project_1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 4,878 MB. GUI used memory: 22 MB. Current time: 11/17/16 11:02:14 AM BRST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 93 MB (+46170kb) [00:00:44]
+// [Engine Memory]: 5,078 MB (+65kb) [00:00:44]
+// [GUI Memory]: 98 MB (+400kb) [00:00:47]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project /home/engenharia/Tony/mem5/project_1/project_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,110 MB. GUI used memory: 46 MB. Current time: 11/17/16 11:02:32 AM BRST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_1; location: /home/engenharia/Tony/mem5/project_1; part: xc7a200tffg1156-1
+// 'i' command handler elapsed time: 33 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 5979.949 ; gain = 256.148 ; free physical = 138 ; free virtual = 4759 
+// Elapsed time: 31 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+minimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+minimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// Elapsed time: 71 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bL:g (cv:JFrame):  IP Catalog : addNotify
+// 'a' command handler elapsed time: 4 seconds
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bL:g (cv:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // bL:g (cv:JFrame)
+dismissDialog("IP Catalog"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bL:g (cv:JFrame):  Open Block Design : addNotify
+// Tcl Message: open_bd_design {/home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:ip:clk_wiz:5.3 - clk_wiz_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:microblaze:9.6 - microblaze_0 
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1 Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_100M Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_100M Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10 Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10 Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - lmb_bram Successfully read diagram <design_1> from BD file </home/engenharia/Tony/mem5/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,121 MB. GUI used memory: 49 MB. Current time: 11/17/16 11:04:12 AM BRST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 6000.328 ; gain = 16.848 ; free physical = 108 ; free virtual = 4725 
+// 'bs' command handler elapsed time: 12 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Open Block Design"); // bL:g (cv:JFrame)
+// Elapsed time: 12 seconds
+minimizeFrame(PAResourceOtoP.PAViews_SYSTEM_HIERARCHY, "Design"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+minimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 228, 206, 449, 448, false, false, false, true, false); // ew:aK (TdiGroup:JideTabbedPane, cv:JFrame) - Popup Trigger
+// PAPropertyPanels.initPanels (microblaze_0) elapsed time: 0.8s
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// P:bL (cv:JFrame):  Re-customize IP : addNotify
+// p:g (cv:JFrame): Re-customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 5,146 MB. GUI used memory: 56 MB. Current time: 11/17/16 11:20:11 AM BRST
+// Elapsed time: 939 seconds
+dismissDialog("Re-customize IP"); // P:bL (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,187 MB. GUI used memory: 56 MB. Current time: 11/17/16 11:20:34 AM BRST
+// Elapsed time: 28 seconds
+dismissDialog("Re-customize IP"); // p:g (cv:JFrame)
+// Elapsed time: 866 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Elapsed time: 230 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,187 MB. GUI used memory: 56 MB. Current time: 11/17/16 11:50:37 AM BRST
+// [GUI Memory]: 103 MB (+174kb) [00:57:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,187 MB. GUI used memory: 54 MB. Current time: 11/17/16 12:20:35 PM BRST
+// HMemoryUtils.trashcanNow. Engine heap size: 5,187 MB. GUI used memory: 54 MB. Current time: 11/17/16 12:50:35 PM BRST
+// [GUI Memory]: 109 MB (+708kb) [01:59:14]

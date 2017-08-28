@@ -1,0 +1,48 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+Process ID: 7269
+
+Current time: 	5/15/17 3:35:11 PM BRT
+Time zone: 	Brasilia Time (America/Sao_Paulo)
+
+OS: PRETTY_NAME="Debian GNU/Linux 8 (jessie)"
+Version: 3.16.0-4-amd64
+Architecture: amd64
+Available processors (cores): 8
+
+DISPLAY: :0
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.2/tps/lnx64/jre
+
+User name: 	tadeu
+User home directory: /home/tadeu
+User working directory: /home/tadeu/workspace/AFC_Loopback
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI Base root directory: /opt/Xilinx/Vivado
+RDI Data directory: /opt/Xilinx/Vivado/2016.2/data
+RDI Bin directory: /opt/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: /home/tadeu/.Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: /home/tadeu/.Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	204 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,860 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 35 MB (+34158kb) [00:00:06]
+// [Engine Memory]: 4,860 MB (+4944124kb) [00:00:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,867 MB. GUI used memory: 21 MB. Current time: 5/15/17 3:35:13 PM BRT

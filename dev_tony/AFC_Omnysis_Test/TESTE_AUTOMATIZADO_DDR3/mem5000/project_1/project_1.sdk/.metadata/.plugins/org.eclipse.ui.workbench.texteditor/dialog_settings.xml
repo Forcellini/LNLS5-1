@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="XTmrCtr_SetOptions" key="selection"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="TimerExpired"/>
+			<item value="3"/>
+			<item value="Status "/>
+			<item value="Status = -1;"/>
+			<item value="Status"/>
+			<item value="reset_valu"/>
+			<item value="Options"/>
+			<item value="TmrCtrNumber"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+			<item value="TmrCtrIntr"/>
+			<item value=" "/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="324" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="435" key="DIALOG_HEIGHT"/>
+		<item value="1055" key="DIALOG_X_ORIGIN"/>
+		<item value="286" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

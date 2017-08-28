@@ -1,0 +1,2 @@
+vivado -mode tcl -source FPGA_AFC_ADC_VELHO.tcl 
+

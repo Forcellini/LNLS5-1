@@ -1,0 +1,7 @@
+setMode -bs
+setCable -port auto
+identifyMPM
+addDevice -p 1 -file "/home/tadeu/workspace/ADC_Omnysis_Test/Fpga/impact_fpga/afcv3-scansta-fpga-cfg.svf"
+Play
+Identify -inferir
+identifyMPM

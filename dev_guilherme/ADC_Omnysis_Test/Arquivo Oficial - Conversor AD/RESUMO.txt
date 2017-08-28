@@ -1,0 +1,17 @@
+SNR do Canal 1 Falhou - Valor Medido: 49.19 dB Critério >= 65 dB 
+SNR do Canal 2 Falhou - Valor Medido: 49.49 dB Critério >= 65 dB 
+SNR do Canal 3 Falhou - Valor Medido: 48.9 dB Critério >= 65 dB 
+SNR do Canal 4 Falhou - Valor Medido: 49.47 dB Critério >= 65 dB 
+SFDR do Canal 1 Falhou - Valor Medido: 26.96 dBFS Critério >= 60 dBFS 
+SFDR do Canal 2 Falhou - Valor Medido: 19.43 dBFS Critério >= 60 dBFS 
+SFDR do Canal 3 Falhou - Valor Medido: 37.86 dBFS Critério >= 60 dBFS 
+SFDR do Canal 4 Falhou - Valor Medido: 40.34 dBFS Critério >= 60 dBFS 
+ENOB do Canal 1 Falhou - Valor Medido: 5.94 bits Critério >= 10 bits 
+ENOB do Canal 2 Falhou - Valor Medido: 5.84 bits Critério >= 10 bits 
+ENOB do Canal 3 Falhou - Valor Medido: 6.36 bits Critério >= 10 bits 
+ENOB do Canal 4 Falhou - Valor Medido: 5.89 bits Critério >= 10 bits 
+CROSSTALK do Canal 1 OK - Valor Medido: 100.12 dB no Canal Canal 4 Critério >= 10 dB 
+CROSSTALK do Canal 2 Falhou - Valor Medido: 92.87dB no Canal Canal 1 Critério >= 100 dB 
+CROSSTALK do Canal 3 Falhou - Valor Medido: 93.0dB no Canal Canal 1 Critério >= 100 dB 
+CROSSTALK do Canal 4 Falhou - Valor Medido: 93.48dB no Canal Canal 1 Critério >= 100 dB 
+

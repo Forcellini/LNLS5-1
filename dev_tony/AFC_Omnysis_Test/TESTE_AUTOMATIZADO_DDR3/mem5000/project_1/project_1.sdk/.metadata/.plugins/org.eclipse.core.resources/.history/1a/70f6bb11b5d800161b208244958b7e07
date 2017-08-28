@@ -1,0 +1,777 @@
+#include <stdio.h>
+#include "xparameters.h"
+#include "xil_types.h"
+#include "xstatus.h"
+#include "xil_testmem.h"
+#include "xtmrctr_l.h"
+#include "platform.h"
+#include "memory_config.h"
+#include "xil_printf.h"
+#include "xintc_l.h"
+#include "xil_io.h"
+#include "xil_exception.h"
+#include "interr.h"
+#include "xil_testmem.h"
+#include "xil_io.h"
+#include "xil_assert.h"
+#include "xtmrctr.h"
+
+
+void putnum(unsigned int num);
+
+void test_memory_range(struct memory_range_s *range) {
+    XStatus status;
+
+    print("Testing memory region: "); print(range->name);  print("\n\r");
+    print("    Memory Controller: "); print(range->ip);  print("\n\r");
+    #ifdef __MICROBLAZE__
+        print("         Base Address: 0x"); putnum(range->base); print("\n\r");
+        print("                 Size: 0x"); putnum(range->size); print (" bytes \n\r");
+    #else
+        xil_printf("         Base Address: 0x%08x \n\r",range->base);
+        xil_printf("                 Size: 0x%08x bytes \n\r",range->size);
+    #endif
+
+    status = Xil_TestMem32((u32*)range->base);
+    print("          32-bit test: "); print(status == XST_SUCCESS? "PASSED!":"FAILED!"); print("\n\r");
+}
+
+
+s32 Xil_TestMem32(u32 *Addr)
+{
+	u32 I;
+	u32 Val;
+	u32 FirtVal = 1;
+	u32 WordMem32;
+	int Status;
+	int a;
+	
+	printf("     BLOCK 1 (1-8)\n\r");
+	Val = FirtVal;
+	for (I = 0U; I+0 < 67108864; I++) 
+	{
+		*(Addr+I+0) = Val;
+		Val++;
+	}
+	printf("     1 of 32 WRITTEN\n\r");
+	a=0;
+	Val = FirtVal;
+	TmrCtrIntr(&InterruptController,&TimerCounterInst,TMRCTR_DEVICE_ID,TMRCTR_INTERRUPT_ID,TIMER_CNTR_0);
+	for (I = 0U; I+0< 67108864; I++) 
+	{
+		WordMem32 = *(Addr+I+0);
+		a=Stopper(&InterruptController,&TimerCounterInst,TMRCTR_DEVICE_ID,TMRCTR_INTERRUPT_ID,TIMER_CNTR_0);
+		if (a == 1)
+		{
+			xil_printf( "     TIME OUT ERROR BLOCK 1\n\r");
+			goto End_Label;
+		}
+		if (WordMem32 != Val) 
+		{
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     1 of 32 COMPLEtE\n\r");
+
+		
+
+	Val = FirtVal;
+	for (I = 0U; I+67108864 < 134217728; I++) 
+	{
+		*(Addr+I+67108864) = Val;
+		Val++;
+	}
+	a=0;
+	Val = FirtVal;
+	TmrCtrIntr(&InterruptController,&TimerCounterInst,TMRCTR_DEVICE_ID,TMRCTR_INTERRUPT_ID,TIMER_CNTR_0);
+	for (I = 0U; I+67108864 < 134217728; I++) {
+	{
+		WordMem32 = *(Addr+I+67108864);
+		a=Stopper(&InterruptController,&TimerCounterInst,TMRCTR_DEVICE_ID,TMRCTR_INTERRUPT_ID,TIMER_CNTR_0);
+		if (a == 1)
+		{
+			xil_printf( "     TIME OUT ERROR BLOCK 1\n\r");
+			goto End_Label;
+		}
+		if (WordMem32 != Val) 
+		{
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+		xil_printf("     2 of 32 COMPLEtE\n\r");
+
+
+
+
+
+
+
+
+
+
+
+
+
+Val = FirtVal;
+
+
+	for (I = 0U; I+134217728 < 201326592; I++) {
+		*(Addr+I+134217728) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+134217728 < 201326592; I++) {
+		WordMem32 = *(Addr+I+134217728);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     3 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+
+
+	for (I = 0U; I+201326592 < 268435456; I++) {
+		*(Addr+I+201326592) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+201326592 < 268435456; I++) {
+		WordMem32 = *(Addr+I+201326592);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     4 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+
+
+	for (I = 0U; I+268435456 < 335544320; I++) {
+		*(Addr+I+268435456) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+268435456 < 335544320; I++) {
+		WordMem32 = *(Addr+I+268435456);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     5 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+
+
+	for (I = 0U; I+335544320 < 402653184; I++) {
+		*(Addr+I+335544320) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+335544320 < 402653184; I++) {
+		WordMem32 = *(Addr+I+335544320);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     6 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+
+
+	for (I = 0U; I+402653184 < 469762048; I++) {
+		*(Addr+I+402653184) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+402653184 < 469762048; I++) {
+		WordMem32 = *(Addr+I+402653184);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     7 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+
+
+	for (I = 0U; I+469762048 < 536870912; I++) {
+		*(Addr+I+469762048) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+469762048 < 536870912; I++) {
+		WordMem32 = *(Addr+I+469762048);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     8 of 32 COMPLEtE\n\r");
+
+	Val = FirtVal;
+
+
+				Val = FirtVal;
+
+
+	for (I = 0U; I+536870912 < 603979776; I++) {
+		*(Addr+I+536870912) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+536870912 < 603979776; I++) {
+		WordMem32 = *(Addr+I+536870912);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     9 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+603979776 < 671088640; I++) {
+		*(Addr+I+603979776) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+603979776 < 671088640; I++) {
+		WordMem32 = *(Addr+I+603979776);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     10 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+671088640 < 738197504; I++) {
+		*(Addr+I+671088640) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+671088640 < 738197504; I++) {
+		WordMem32 = *(Addr+I+671088640);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     11 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+738197504 < 805306368; I++) {
+		*(Addr+I+738197504) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+738197504 < 805306368; I++) {
+		WordMem32 = *(Addr+I+738197504);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     12 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+805306368 < 872415232; I++) {
+		*(Addr+I+805306368) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+805306368 < 872415232; I++) {
+		WordMem32 = *(Addr+I+805306368);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     13 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+872415232 < 939524096; I++) {
+		*(Addr+I+872415232) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+872415232 < 939524096; I++) {
+		WordMem32 = *(Addr+I+872415232);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     14 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+939524096 < 1006632960; I++) {
+		*(Addr+I+939524096) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+939524096 < 1006632960; I++) {
+		WordMem32 = *(Addr+I+939524096);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     15 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1006632960 < 1073741824; I++) {
+		*(Addr+I+1006632960) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1006632960 < 1073741824; I++) {
+		WordMem32 = *(Addr+I+1006632960);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     16 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1073741824 < 1140850688; I++) {
+		*(Addr+I+1073741824) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1073741824 < 1140850688; I++) {
+		WordMem32 = *(Addr+I+1073741824);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     17 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1140850688 < 1207959552; I++) {
+		*(Addr+I+1140850688) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1140850688 < 1207959552; I++) {
+		WordMem32 = *(Addr+I+1140850688);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     18 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1207959552 < 1275068416; I++) {
+		*(Addr+I+1207959552) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1207959552 < 1275068416; I++) {
+		WordMem32 = *(Addr+I+1207959552);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     19 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1275068416 < 1342177280; I++) {
+		*(Addr+I+1275068416) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1275068416 < 1342177280; I++) {
+		WordMem32 = *(Addr+I+1275068416);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     20 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1342177280 < 1409286144; I++) {
+		*(Addr+I+1342177280) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1342177280 < 1409286144; I++) {
+		WordMem32 = *(Addr+I+1342177280);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     21 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1409286144 < 1476395008; I++) {
+		*(Addr+I+1409286144) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1409286144 < 1476395008; I++) {
+		WordMem32 = *(Addr+I+1409286144);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     22 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1476395008 < 1543503872; I++) {
+		*(Addr+I+1476395008) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1476395008 < 1543503872; I++) {
+		WordMem32 = *(Addr+I+1476395008);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     23 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1543503872 < 1610612736; I++) {
+		*(Addr+I+1543503872) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1543503872 < 1610612736; I++) {
+		WordMem32 = *(Addr+I+1543503872);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     24 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1610612736 < 1677721600; I++) {
+		*(Addr+I+1610612736) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1610612736 < 1677721600; I++) {
+		WordMem32 = *(Addr+I+1610612736);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     25 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1677721600 < 1744830464; I++) {
+		*(Addr+I+1677721600) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1677721600 < 1744830464; I++) {
+		WordMem32 = *(Addr+I+1677721600);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     26 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1744830464 < 1811939328; I++) {
+		*(Addr+I+1744830464) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1744830464 < 1811939328; I++) {
+		WordMem32 = *(Addr+I+1744830464);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     27 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1811939328 < 1879048192; I++) {
+		*(Addr+I+1811939328) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1811939328 < 1879048192; I++) {
+		WordMem32 = *(Addr+I+1811939328);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     28 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1879048192 < 1946157056; I++) {
+		*(Addr+I+1879048192) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1879048192 < 1946157056; I++) {
+		WordMem32 = *(Addr+I+1879048192);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     29 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+1946157056 < 2013265920; I++) {
+		*(Addr+I+1946157056) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+1946157056 < 2013265920; I++) {
+		WordMem32 = *(Addr+I+1946157056);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     30 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+2013265920 < 2080374784; I++) {
+		*(Addr+I+2013265920) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+2013265920 < 2080374784; I++) {
+		WordMem32 = *(Addr+I+2013265920);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     31 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+	for (I = 0U; I+2080374784 < 2147483648; I++) {
+		*(Addr+I+2080374784) = Val;
+		Val++;
+	}
+	Val = FirtVal;
+	for (I = 0U; I+2080374784 < 2147483648; I++) {
+		WordMem32 = *(Addr+I+2080374784);
+
+		if (WordMem32 != Val) {
+			Status = -1;
+			goto End_Label;
+		}
+		Val++;
+	}
+
+		xil_printf("     32 of 32 COMPLEtE\n\r");
+
+		Val = FirtVal;
+		Val = FirtVal;
+
+
+
+
+End_Label:
+	return Status;
+}
+
+void main()
+{
+    int i;
+
+    init_platform();
+
+    print("--Starting Memory Test Application--\n\r");
+    print("NOTE: This application runs with D-Cache disabled.");
+    print("As a result, cacheline requests will not be generated\n\r");
+
+    for (i = 0; i < n_memory_ranges; i++) {
+        test_memory_range(&memory_ranges[i]);
+    }
+
+    print("--Memory Test Application Complete--\n\r");
+
+    cleanup_platform();
+
+
+
+
+}

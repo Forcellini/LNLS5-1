@@ -1,0 +1,20 @@
+*para inicializar os serviços do crate
+
+sudo systemctl enable halcs-be@{7,8}
+sudo systemctl enable halcs-fe@{7,8}
+sudo systemctl enable halcs-be-ioc@{7,8}
+sudo systemctl enable halcs-fe-ioc@{7,8}
+sudo systemctl stop halcs@{7,8}.target
+sudo systemctl start halcs-ioc@{7,8}.target
+
+
+*para verificar se o crate está interpretando a fpga gravada
+
+cd /dev/fpga-4
+sudo bash -c "echo 1 > /sys/bus/pci/rescan"
+
+
+*para verificar se os serviços estão ativos
+
+sudo systemctl status malamute
+sudo systemctl list-units | grep halcs

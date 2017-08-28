@@ -1,0 +1,3 @@
+pyinstaller ipmi_py27.py
+
+#utilizando pyinstaller com python V2.7

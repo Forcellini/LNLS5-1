@@ -1,0 +1,97 @@
+xilinx rtfpga
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_axi_mc/axi_mc_r_channel_0/r_ignore_end_r_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_axi_mc/\USE_UPSIZER.upsizer_d2 /\mi_register_slice_inst/r_pipe/storage_data2_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u_axi_mc/USE_UPSIZER.upsizer_d2/si_register_slice_inst/ar_pipe/areset_d_reg[0]' (FD) to 'u_axi_mc/USE_UPSIZER.upsizer_d2/si_register_slice_inst/aw_pipe/areset_d_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_axi_mc/USE_UPSIZER.upsizer_d2/si_register_slice_inst/ar_pipe/areset_d_reg[1]' (FD) to 'u_axi_mc/USE_UPSIZER.upsizer_d2/si_register_slice_inst/aw_pipe/areset_d_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_ui_top/ui_cmd0/app_cmd_r1_reg[1]' (FDE) to 'u_ui_top/ui_cmd0/app_hi_pri_r1_reg'
+INFO: [Synth 8-3886] merging instance 'u_ui_top/ui_cmd0/app_cmd_r1_reg[2]' (FDE) to 'u_ui_top/ui_cmd0/app_hi_pri_r1_reg'
+INFO: [Synth 8-3886] merging instance 'u_ui_top/ui_cmd0/app_addr_r1_reg[0]' (FDRE) to 'u_ui_top/ui_cmd0/app_addr_r1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_ui_top/ui_cmd0/app_addr_r2_reg[0]' (FDRE) to 'u_ui_top/ui_cmd0/app_addr_r2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_ui_top/ui_cmd0/app_addr_r1_reg[1]' (FDRE) to 'u_ui_top/ui_cmd0/app_addr_r1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_ui_top/ui_cmd0/app_addr_r2_reg[1]' (FDRE) to 'u_ui_top/ui_cmd0/app_addr_r2_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_ui_top/ui_cmd0/app_addr_r1_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u_ui_top/ui_cmd0/app_hi_pri_r1_reg' (FDE) to 'u_ui_top/ui_cmd0/app_sz_r1_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_ui_top/ui_cmd0/app_sz_r1_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_axi_mc/\USE_UPSIZER.upsizer_d2 /\mi_register_slice_inst/r_pipe/storage_data1_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/USE_FF_OUT.USE_FPGA_OUTPUT_PIPELINE.DATA_GEN[16].FDRE_inst) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/USE_FF_OUT.USE_FPGA_OUTPUT_PIPELINE.DATA_GEN[17].FDRE_inst) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ASIZE_q_reg[2]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ASIZE_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ASIZE_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ABURST_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ALOCK_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ALOCK_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ACACHE_q_reg[3]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ACACHE_q_reg[2]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ACACHE_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_ACACHE_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_APROT_q_reg[2]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_APROT_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_APROT_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_AREGION_q_reg[3]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_AREGION_q_reg[2]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_AREGION_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_AREGION_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_addr_inst/USE_REGISTER.M_AXI_AUSER_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_data_inst/USE_REGISTER.M_AXI_WLAST_q_reg) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_WRITE.write_data_inst/USE_REGISTER.M_AXI_WUSER_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_BURSTS.cmd_queue/USE_FF_OUT.USE_FPGA_OUTPUT_PIPELINE.DATA_GEN[16].FDRE_inst) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_BURSTS.cmd_queue/USE_FF_OUT.USE_FPGA_OUTPUT_PIPELINE.DATA_GEN[17].FDRE_inst) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_BURSTS.cmd_queue/USE_FF_OUT.USE_FPGA_OUTPUT_PIPELINE.DATA_GEN[38].FDRE_inst) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ASIZE_q_reg[2]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ASIZE_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ASIZE_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ABURST_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ALOCK_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ALOCK_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ACACHE_q_reg[3]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ACACHE_q_reg[2]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ACACHE_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_ACACHE_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_APROT_q_reg[2]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_APROT_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_APROT_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_AREGION_q_reg[3]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_AREGION_q_reg[2]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_AREGION_q_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_AREGION_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_addr_inst/USE_REGISTER.M_AXI_AUSER_q_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (USE_READ.read_data_inst/rresp_wrap_buffer_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[16]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[15]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[14]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[13]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[12]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[11]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[10]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[9]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[8]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[7]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[6]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[5]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/aw_pipe/storage_data1_reg[4]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[16]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[15]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[14]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[13]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[12]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[11]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[10]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[9]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[8]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[7]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[6]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[5]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/storage_data1_reg[4]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/areset_d_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (si_register_slice_inst/ar_pipe/areset_d_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (mi_register_slice_inst/r_pipe/storage_data2_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (mi_register_slice_inst/r_pipe/storage_data1_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_axi_upsizer.
+WARNING: [Synth 8-3332] Sequential element (axburst_reg[0]) is unused and will be removed from module mig_7series_v4_0_axi_mc_aw_channel.
+WARNING: [Synth 8-3332] Sequential element (axburst_reg[0]) is unused and will be removed from module mig_7series_v4_0_axi_mc_ar_channel.
+WARNING: [Synth 8-3332] Sequential element (trans_buf_out_r_reg[1]) is unused and will be removed from module mig_7series_v4_0_axi_mc_r_channel.
+WARNING: [Synth 8-3332] Sequential element (trans_buf_out_r1_reg[1]) is unused and will be removed from module mig_7series_v4_0_axi_mc_r_channel.
+WARNING: [Synth 8-3332] Sequential element (r_ignore_end_r_reg) is unused and will be removed from module mig_7series_v4_0_axi_mc_r_channel.
+WARNING: [Synth 8-3332] Sequential element (r_ignore_begin_r_reg) is unused and will be removed from module mig_7series_v4_0_axi_mc_r_channel.
+WARNING: [Synth 8-3332] Sequential element (RD_PRI_REG.wr_starve_cnt_reg[9]) is unused and will be removed from module mig_7series_v4_0_axi_mc_cmd_arbiter.
+WARNING: [Synth 8-3332] Sequential element (RD_PRI_REG.rd_starve_cnt_reg[9]) is unused and will be removed from module mig_7series_v4_0_axi_mc_cmd_arbiter.

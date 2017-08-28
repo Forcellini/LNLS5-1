@@ -1,0 +1,304 @@
+xilinx rtfpga
+INFO: [Synth 8-3886] merging instance 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][0]' (FD) to 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][1]' (FD) to 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][2]' (FD) to 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][3]' (FD) to 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][5]'
+INFO: [Synth 8-3886] merging instance 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][4]' (FD) to 'mb_wrlvl_inst.u_ddr_phy_wrlvl/add_smallest_reg[0][5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mb_wrlvl_inst.u_ddr_phy_wrlvl /\add_smallest_reg[0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /cal1_dlyinc_dq_r_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /cal1_dlyce_dq_r_reg)
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/calib_tap_inc_done_r1_reg' (FD) to 'u_ddr_phy_init/calib_data_offset_2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/p_2_out[1]' (FDRE) to 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/prbs_dqs_cnt_r_reg[1]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/p_2_out[0]' (FDRE) to 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/prbs_dqs_cnt_r_reg[0]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/p_2_out[2]' (FDRE) to 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/prbs_dqs_cnt_r_reg[2]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/rd_mux_sel_r_reg[0]' (FD) to 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/A[0]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/rd_mux_sel_r_reg[1]' (FD) to 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/A[1]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/rd_mux_sel_r_reg[2]' (FD) to 'ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl/A[2]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_ddr_phy_init/\gen_single_slot_odt.tmp_mr1_r_reg[0][0] )
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr1_r_reg[0][1]' (FDRE) to 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr1_r_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr2_r_reg[0][0]' (FDRE) to 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr1_r_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr1_r_reg[0][2]' (FDRE) to 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr2_r_reg[0][1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_phy_init/\gen_single_slot_odt.tmp_mr2_r_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr /\pi_dqs_found_any_bank_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_phy_init/calib_tap_end_if_reset_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_phy_init/extend_cal_pat_reg)
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.phy_tmp_odt_r_reg[0]' (FDR) to 'u_ddr_phy_init/gen_rnk[0].mr1_r_reg[0][0]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.phy_tmp_odt_r_reg[2]' (FDR) to 'u_ddr_phy_init/gen_single_slot_odt.phy_tmp_odt_r_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.phy_tmp_odt_r_reg[3]' (FDR) to 'u_ddr_phy_init/gen_single_slot_odt.phy_tmp_odt_r_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_phy_init/\gen_single_slot_odt.phy_tmp_odt_r_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/tg_timer_go_reg' (FD) to 'u_ddr_phy_init/calib_data_offset_2_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl /\prbs_state_r_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_phy_wrcal/wrcal_act_req_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_phy_init/complex_rdlvl_int_ref_req_reg)
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr1_r_reg[1][0]' (FDRE) to 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr2_r_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr1_r_reg[1][1]' (FDRE) to 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr2_r_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_rnk[0].mr1_r_reg[0][1]' (FDR) to 'u_ddr_phy_init/gen_rnk[0].mr1_r_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr2_r_reg[1][0]' (FDRE) to 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr2_r_reg[1][1]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_rnk[0].mr2_r_reg[0][0]' (FDR) to 'u_ddr_phy_init/gen_rnk[0].mr1_r_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr1_r_reg[1][2]' (FDRE) to 'u_ddr_phy_init/gen_single_slot_odt.tmp_mr2_r_reg[1][1]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_rnk[0].mr1_r_reg[0][2]' (FDR) to 'u_ddr_phy_init/gen_rnk[0].mr2_r_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/new_burst_r_reg' (FD) to 'u_ddr_phy_init/calib_cas_slot_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_phy_init/\gen_single_slot_odt.tmp_mr2_r_reg[1][1] )
+INFO: [Synth 8-3886] merging instance 'ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/dlyval_dq_reg_r_reg[0][8][0]' (FDRE) to 'ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/dlyval_dq_reg_r_reg[0][8][1]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/dlyval_dq_reg_r_reg[0][8][1]' (FDRE) to 'ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/dlyval_dq_reg_r_reg[0][8][2]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/dlyval_dq_reg_r_reg[0][8][2]' (FDRE) to 'ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/dlyval_dq_reg_r_reg[0][8][3]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/dlyval_dq_reg_r_reg[0][8][3]' (FDRE) to 'ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl/dlyval_dq_reg_r_reg[0][8][4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg_r_reg[0][8][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mb_wrlvl_inst.u_ddr_phy_wrlvl /dual_rnk_dec_reg)
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_tap_req_reg' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[0]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[1]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[2]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[3]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[4]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[5]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[6]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[7]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[8]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[9]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[10]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'skip_calib_tap_off.calib_device_temp_reg[11]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\mb_wrlvl_inst.u_ddr_phy_ck_addr_cmd_delay /po_stg2_f_incdec_reg)
+INFO: [Synth 8-3886] merging instance 'calib_zero_ctrl_reg[0]' (FD) to 'calib_zero_ctrl_reg[1]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\calib_zero_ctrl_reg[1] )
+INFO: [Synth 8-3886] merging instance 'calib_sel_reg[4]' (FD) to 'calib_sel_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\calib_sel_reg[5] )
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/calib_data_offset_2_reg[0]' (FD) to 'u_ddr_phy_init/calib_data_offset_2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/calib_data_offset_2_reg[1]' (FD) to 'u_ddr_phy_init/calib_data_offset_2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/calib_data_offset_2_reg[2]' (FD) to 'u_ddr_phy_init/calib_data_offset_2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/calib_data_offset_2_reg[4]' (FD) to 'u_ddr_phy_init/calib_data_offset_2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/calib_data_offset_2_reg[5]' (FD) to 'u_ddr_phy_init/calib_cas_slot_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/calib_cas_slot_reg[0]' (FD) to 'u_ddr_phy_init/gen_div4_ca_tieoff.phy_ras_n_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/calib_cas_slot_reg[1]' (FD) to 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/single_rank.chip_cnt_r_reg[0]' (FD) to 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/single_rank.chip_cnt_r_reg[1]' (FD) to 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[15]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/DDR3_1rank.phy_int_cs_n_reg[0]' (FDS) to 'u_ddr_phy_init/DDR3_1rank.phy_int_cs_n_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/DDR3_1rank.phy_int_cs_n_reg[2]' (FDS) to 'u_ddr_phy_init/DDR3_1rank.phy_int_cs_n_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/DDR3_1rank.phy_int_cs_n_reg[3]' (FDS) to 'u_ddr_phy_init/odd_cwl.phy_cas_n_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/odd_cwl.phy_we_n_reg[0]' (FDS) to 'u_ddr_phy_init/odd_cwl.phy_cas_n_reg[0]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/odd_cwl.phy_cas_n_reg[0]' (FDS) to 'u_ddr_phy_init/odd_cwl.phy_ras_n_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_ddr_phy_init/\odd_cwl.phy_ras_n_reg[0] )
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_div4_ca_tieoff.phy_ras_n_reg[2]' (FD) to 'u_ddr_phy_init/gen_div4_ca_tieoff.phy_ras_n_reg[3]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (u_ddr_phy_init/\gen_div4_ca_tieoff.phy_ras_n_reg[3] )
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[15]' (FD) to 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[0]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[24]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[1]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[25]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[2]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[26]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[3]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[27]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[4]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[28]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[5]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[29]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[6]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[30]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[7]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[8]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[24]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[9]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[25]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[10]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[26]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[11]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[27]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[12]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[28]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[13]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[29]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[14]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[30]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[15]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[31]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[16]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[24]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[17]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[25]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[18]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[26]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[19]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[27]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[20]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[28]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[21]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[29]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[22]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[30]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[23]' (FDR) to 'u_ddr_prbs_gen/victim_sel_rotate.sel_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl /fine_dly_error_reg)
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/victim_byte_cnt_reg[0]' (FD) to 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/victim_byte_cnt_reg[1]' (FD) to 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/victim_byte_cnt_reg[2]' (FD) to 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/complex_address_reg[10]' (FDRE) to 'u_ddr_phy_init/complex_address_reg[11]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/complex_address_reg[11]' (FDRE) to 'u_ddr_phy_init/complex_address_reg[12]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/complex_address_reg[12]' (FDRE) to 'u_ddr_phy_init/complex_address_reg[13]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/complex_address_reg[13]' (FDRE) to 'u_ddr_phy_init/complex_address_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_phy_init/\complex_address_reg[14] )
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[11]' (FD) to 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[14]'
+INFO: [Synth 8-3886] merging instance 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[13]' (FD) to 'u_ddr_phy_init/gen_no_mirror.div_clk_loop[0].phy_address_reg[14]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_ddr_phy_init/\gen_no_mirror.div_clk_loop[0].phy_address_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\dqsfind_calib_left.u_ddr_phy_dqs_found_cal_hr /\pi_dqs_found_any_bank_r_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_prbs_rdlvl_gen.u_ddr_phy_prbs_rdlvl /\prbs_state_r1_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[40] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[41] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[42] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[43] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[44] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[45] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[46] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[47] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[48] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[49] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[50] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[51] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[52] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[53] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[54] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[56] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[57] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[58] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[59] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[60] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[61] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[62] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[64] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[65] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[66] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[67] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[68] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[69] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[70] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[71] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[72] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[73] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ddr_phy_rdlvl_gen.u_ddr_phy_rdlvl /\dlyval_dq_reg[74] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (add_smallest_reg[0][5]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_wrlvl.
+WARNING: [Synth 8-3332] Sequential element (add_smallest_reg[0][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_wrlvl.
+WARNING: [Synth 8-3332] Sequential element (add_smallest_reg[0][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_wrlvl.
+WARNING: [Synth 8-3332] Sequential element (add_smallest_reg[0][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_wrlvl.
+WARNING: [Synth 8-3332] Sequential element (add_smallest_reg[0][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_wrlvl.
+WARNING: [Synth 8-3332] Sequential element (add_smallest_reg[0][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_wrlvl.
+WARNING: [Synth 8-3332] Sequential element (dual_rnk_dec_reg) is unused and will be removed from module mig_7series_v4_0_ddr_phy_wrlvl.
+WARNING: [Synth 8-3332] Sequential element (po_stg2_f_incdec_reg) is unused and will be removed from module mig_7series_v4_0_ddr_phy_ck_addr_cmd_delay.
+WARNING: [Synth 8-3332] Sequential element (pi_dqs_found_any_bank_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_dqs_found_cal_hr.
+WARNING: [Synth 8-3332] Sequential element (pi_dqs_found_any_bank_r_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_dqs_found_cal_hr.
+WARNING: [Synth 8-3332] Sequential element (found_edge_all_r_reg) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (gen_track_left_edge[0].pb_found_edge_last_r_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (cal1_dlyce_dq_r_reg) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (cal1_dlyinc_dq_r_reg) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (idel_tap_cnt_dq_pb_r_reg[4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (idel_tap_cnt_dq_pb_r_reg[3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (idel_tap_cnt_dq_pb_r_reg[2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (idel_tap_cnt_dq_pb_r_reg[1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (idel_tap_cnt_dq_pb_r_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (idel_tap_limit_dq_pb_r_reg) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (gen_pat_match_div4.idel_pat_data_match_r_reg) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (rdlvl_assrt_common_reg) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (gen_dlyce_dq[0].dlyce_dq_r_reg[0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][1][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][1][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][1][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][1][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][1][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][2][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][2][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][2][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][2][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][2][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][3][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][3][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][3][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][3][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][3][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][4][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][4][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][4][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][4][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][4][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][5][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][5][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][5][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][5][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][5][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][6][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][6][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][6][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][6][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][6][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][7][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][7][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][7][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][7][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][7][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyinc_dq_r_reg) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][0][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][0][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][0][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][0][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][0][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][8][4]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][8][3]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][8][2]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][8][1]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg_r_reg[0][8][0]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[159]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[158]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[157]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[156]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[155]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[154]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[153]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[152]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[151]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[150]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[149]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[148]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[147]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[146]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[145]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[144]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[143]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[142]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[141]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[140]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[139]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[138]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[137]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[136]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[135]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[134]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[133]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[132]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[131]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[130]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+WARNING: [Synth 8-3332] Sequential element (dlyval_dq_reg[129]) is unused and will be removed from module mig_7series_v4_0_ddr_phy_rdlvl.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'ddr_phy_tempmon_0/four_inc_max_limit_reg[0]' (FDR) to 'ddr_phy_tempmon_0/two_dec_max_limit_reg[0]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_tempmon_0/three_inc_max_limit_reg[0]' (FDR) to 'ddr_phy_tempmon_0/two_dec_max_limit_reg[0]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_tempmon_0/two_inc_max_limit_reg[0]' (FDR) to 'ddr_phy_tempmon_0/two_dec_max_limit_reg[0]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_tempmon_0/one_inc_max_limit_reg[0]' (FDR) to 'ddr_phy_tempmon_0/two_dec_max_limit_reg[0]'
+INFO: [Synth 8-3886] merging instance 'ddr_phy_tempmon_0/neutral_max_limit_reg[0]' (FDR) to 'ddr_phy_tempmon_0/two_dec_max_limit_reg[0]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.

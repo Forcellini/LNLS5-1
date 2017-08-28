@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Thu Jan  5 09:07:29 2017
+# Process ID: 12487
+# Current directory: /home/tadeu/workspace/AD_comunication/Fpga/vivado_fpga
+# Command line: vivado -mode tcl -source FPGA_AFC_ADC_VELHO.tcl
+# Log file: /home/tadeu/workspace/AD_comunication/Fpga/vivado_fpga/vivado.log
+# Journal file: /home/tadeu/workspace/AD_comunication/Fpga/vivado_fpga/vivado.jou
+#-----------------------------------------------------------
+source FPGA_AFC_ADC_VELHO.tcl
