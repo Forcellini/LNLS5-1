@@ -1,3 +1,2 @@
 ## LNLS5
-### Desafio 5
-### de Sergio Forcelini
+### Desafio 5 de Sergio Forcelini
