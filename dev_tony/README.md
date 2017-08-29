@@ -1,5 +1,15 @@
 # LNLS - Desafio 5
 
+## FILES
+
+* **AFC_Omnysis_Test -** Repository with the code to test the AFC Board
+
+* **AFC_Loopback -** Repository with the code to test the AFC Board with Loopback Board
+
+* **Plano_de_Testes-Desafio 5.pdf -** Test plan walkthrough
+
+* **AFC_Diagram.pdf -** Test plan setup diagrams
+
 ## Documentation
 
 The system documentation for the tests and the test diagrams are in documentation branch:
